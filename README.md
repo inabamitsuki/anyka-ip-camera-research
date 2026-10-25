@@ -5,9 +5,18 @@ This document consolidates the key findings from the IPC RTSP analysis and the K
 ## Overview
 
 - **Camera:** Anyka/Juanvision/JIUAN-family IPC firmware image `ipc1824.bin`.
+- **Camera SoC/processor:** Anyka `AK3918EN080` (hardware identification supplied for this device; verify against chip markings or board documentation if publishing).
 - **NVR:** K9608-W, an 8-channel NVR based on HiSilicon Hi3520D and Linux 3.0.8.
 - **Main finding:** The analyzed camera firmware includes an RTSP server on TCP port `554`, gated by `[cloud] n1 = 1`, not by `rtsp_support`.
 - **NVR integration:** The NVR communicates with the camera using the vendor N1/HiChip NetSDK over HTTP port `80`. It is not confirmed to provide an RTSP bridge.
+
+## Camera Hardware
+
+- **SoC / processor:** Anyka `AK3918EN080`.
+- **Firmware image analyzed:** `ipc1824.bin`.
+- **Main application:** `/usr/bin/anyka_ipc`.
+
+The SoC identification describes the camera hardware; the RTSP findings below are specific to the analyzed firmware image and may differ across firmware versions.
 
 ## Key Findings
 
