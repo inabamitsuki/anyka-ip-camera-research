@@ -1,0 +1,2035 @@
+picocom v3.1
+
+port is        : /dev/ttyUSB0
+flowcontrol    : none
+baudrate is    : 115200
+parity is      : none
+databits are   : 8
+stopbits are   : 1
+escape is      : C-a
+local echo is  : no
+noinit is      : no
+noreset is     : no
+hangup is      : no
+nolock is      : no
+send_cmd is    : sz -vv
+receive_cmd is : rz -vv -E
+imap is        : 
+omap is        : 
+emap is        : crcrlf,delbs,
+logfile is     : none
+initstring     : none
+exit_after is  : not set
+exit is        : no
+
+Type [C-a] [C-h] to see available commands
+Terminal ready
+[1;33mINFO : 1384:[AppCheckWAN:389]@02:36:21  Try www.dvr163.com, DNS fail.
+[m[0;32;31mERROR: 1384:[AppCheckWAN:391]@02:36:21  DNS is invalid.
+[mPingServer:dns error
+: Connection refused
+assisthread:try_num=0, try_cnt=337
+PingServer:dns error
+: Connection refused
+assisthread:try_num=1, try_cnt=338
+ping server error
+HOCK:[GetNetConnecStatus:1668]upnp.code does not exist, UPNP Fail!
+connect fail
+LIVECONTROL: Clear Line
+WINDOW quick: paint bg "null" [195,400]
+SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;30m[ hichip_v1.c: 626][0m hg_request to 172.20.14.37:80 /cgi-bin/gw2.cgi failed errorno:3!
+[1;35mJCM::INFO:[0m [   app_jcm.c: 857] chn:0 error event: 3
+[1;34m==::CRIT:[0m [jcm_basesrc.c: 691] ret = protocol_klass->pre_setup(src->m_kvcProtocol, customCtx); errno:115
+[1;33mJCM::WARNING:[0m [jcm_basesrc.c:1209] SRC:0xe83bfe13 connect failed
+WINDOW live: paint bg "null" [1024,768]
+[0;32;32mDEBUG: 1384:[app2gui_read_cmd:2440]@02:36:27  recv CMD_TDE_CONTRL = 1
+[mping server error
+HOCK:[GetNetConnecStatus:1668]upnp.code does not exist, UPNP Fail!
+connect fail
+WINDOW login: paint bg "theme" [360,180]
+WINDOW login: to 1
+WINDOW live: paint bg "null" [1024,768]
+[0;32;32mDEBUG: 1384:[app2gui_read_cmd:2440]@02:36:29  recv CMD_TDE_CONTRL = 1
+[mping server error
+HOCK:[GetNetConnecStatus:1668]upnp.code does not exist, UPNP Fail!
+connect fail
+Timer 0. "timer_chk_alarm_status"
+Timer 1. "live update eseeid"
+Timer 2. "live osd eseeid"
+Timer 0. "timer_chk_alarm_status"
+Timer 1. "live update eseeid"
+Timer 2. "live osd eseeid"
+Timer 3. "live auto switch"
+Timer 4. "live osd"
+WINDOW Shutdown: paint bg "theme" [300,220]
+PingServer:dns error
+: Connection refused
+assisthread:try_num=2, try_cnt=344
+TimeOut: gTaskTimeCnt = 22
+WINDOW messagebox: paint bg "theme" [500,225]
+[0m[JAP2P|udxa.cpp:61]JANP771310453316 start login
+SendPack DNS error
+[2005-6-2 19:36:32 rcvNATEventProc] JANATSvr_Identify Port 0 Failed
+WINDOW live: paint bg "null" [1024,768]
+[0m[0;32;32mDEBUG: 1384:[app2gui_read_cmd:2440]@02:36:32  recv CMD_TDE_CONTRL = 1
+[mping server error
+HOCK:[GetNetConnecStatus:1668]upnp.code does not exist, UPNP Fail!
+connect fail
+Timer 0. "timer_chk_alarm_status"
+Timer 1. "live auto switch"
+Timer 2. "live osd"
+Timer 3. "live update eseeid"
+Timer 4. "live osd eseeid"
+Timer 0. "timer_chk_alarm_status"
+Timer 1. "live update eseeid"
+Timer 2. "live osd eseeid"
+Timer 3. "live auto switch"
+Timer 4. "live osd"
+WINDOW loading: paint bg "theme" [500,150]
+[0;32;32mDEBUG: 1384:[app2gui_read_cmd:2498]@02:36:32  
+DISK_OFF_READY
+
+[m[0;37mTIMETICK->[timetick.c]:228 remove a task @ 0[m
+[1;33mINFO : 1384:[XREC_deinit:661]@02:36:32  XREC_deinit stop by not running
+[m[32;1m[WIFI::wifi_usb1.c-749][0m stop the adapter monitor thread successfully
+RTL871X: ERROR rtw_hal_macid_wakeup(wlan0): Invalid macid(32)
+RTL871X: ERROR rtw_hal_macid_wakeup(wlan0): Invalid macid(32)
+RTL871X: indicate disassoc
+RTL871X: module exit start
+usbcore: deregistering interface driver rtl8188eu
+RTL871X: rtw_ndev_uninit(wlan0)
+RTL871X: rtw_cmd_thread: DriverStopped(1) SurpriseRemoved(0) break at line 478
+RTL871X: rtw_dev_unload: driver not in IPS
+usb 1-2: reset high speed USB device number 2 using hiusb-ehci
+RTL871X: module exit success
+SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;30m[ hichip_v1.c: 626][0m hg_request to 172.20.14.37:80 /cgi-bin/gw2.cgi failed errorno:3!
+[1;35mJCM::INFO:[0m [   app_jcm.c: 857] chn:0 error event: 3
+[1;34m==::CRIT:[0m [jcm_basesrc.c: 691] ret = protocol_klass->pre_setup(src->m_kvcProtocol, customCtx); errno:115
+[1;33mJCM::WARNING:[0m [jcm_basesrc.c:1209] SRC:0xe83bfe13 connect failed
+HOCK:[NK_GUI_Relmd: stopping all md devices.
+easingResource:19]system resource release finished!
+
+Reboot in application!
+Restarting system.
+                         
+
+
+U-Boot 2010.06-dirty (Aug 15 2013 - 10:07:00)
+
+Check spi flash controller v350... Found
+Spi(cs1) ID: 0xC2 0x20 0x18 0xC2 0x20 0x18
+Spi(cs1): Block:64KB Chip:16MB Name:"MX25L128XX"
+In:    serial
+Out:   serial
+Err:   serial
+Hit any key to stop autoboot:  1  0 
+16384 KiB hi_sfc at 0:0 is now current device
+
+
+enable_mmu_accelerate
+<<addr=0x84800000, size=0x40000, vobuf=0x8c000000>>
+<<imgwidth=800, imgheight=600, linebytes=1600>>
+decode success!!!!
+<<addr=0x84900000, size=0x40000, vobuf=0x8d000000>>
+<<imgwidth=720, imgheight=576, linebytes=1440>>
+decode success!!!!
+disable_mmu_accelerate
+16384 KiB hi_sfc at 0:0 is now current device
+
+
+## Booting kernel from Legacy Image at 82000000 ...
+   Image Name:   Linux-3.0.8
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    2472752 Bytes = 2.4 MiB
+   Load Address: 80008000
+   Entry Point:  80008000
+## Loading init Ramdisk from Legacy Image at 81000000 ...
+   Image Name:   JUAN root filesystem(21/01/2017)
+   Image Type:   ARM Linux RAMDisk Image (gzip compressed)
+   Data Size:    7979008 Bytes = 7.6 MiB
+   Load Address: 81000000
+   Entry Point:  81000000
+   Loading Kernel Image ... OK
+OK
+
+Starting kernel ...
+
+Uncompressing Linux... done, booting the kernel.
+Linux version 3.0.8 (root@lee) (gcc version 4.4.1 (Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)) ) #7 Sat Nov 19 08:35:53 CST 2016
+CPU: ARMv7 Processor [414fc091] revision 1 (ARMv7), cr=10c53c7f
+CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Machine: hi3520d
+Memory policy: ECC disabled, Data cache writeback
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 37084
+Kernel command line: mem=146M console=ttyAMA0,115200 root=0100 init=/linuxrc mtdparts=hi_sfc:512K(U),256K(E),256K(L),512K(C),2560K(K),12M(R) ramdisk_size=8000
+PID hash table entries: 1024 (order: 0, 4096 bytes)
+Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Memory: 146MB = 146MB total
+Memory: 133452k/133452k available, 16052k reserved, 0K highmem
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+    vmalloc : 0xc9800000 - 0xfe000000   ( 840 MB)
+    lowmem  : 0xc0000000 - 0xc9200000   ( 146 MB)
+    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+      .init : 0xc0008000 - 0xc002d000   ( 148 kB)
+      .text : 0xc002d000 - 0xc0620000   (6092 kB)
+      .data : 0xc0620000 - 0xc064e2e0   ( 185 kB)
+       .bss : 0xc064e304 - 0xc06aa510   ( 369 kB)
+SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:128 nr_irqs:128 128
+sched_clock: 32 bits at 82MHz, resolution 12ns, wraps every 52060ms
+Console: colour dummy device 80x30
+Calibrating delay loop... 1318.91 BogoMIPS (lpj=6594560)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+CPU: Testing write buffer coherency: ok
+hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+devtmpfs: initialized
+xor: measuring software checksum speed
+   arm4regs  :  1072.000 MB/sec
+   8regs     :   802.800 MB/sec
+   32regs    :   851.200 MB/sec
+xor: using function: arm4regs (1072.000 MB/sec)
+NET: Registered protocol family 16
+hw-breakpoint: found 6 breakpoint and 1 watchpoint registers.
+hw-breakpoint: 1 breakpoint(s) reserved for watchpoint single-step.
+hw-breakpoint: maximum watchpoint size is 4 bytes.
+Serial: AMBA PL011 UART driver
+uart:0: ttyAMA0 at MMIO 0x20080000 (irq = 40) is a PL011 rev2
+console [ttyAMA0] enabled
+uart:1: ttyAMA1 at MMIO 0x20090000 (irq = 41) is a PL011 rev2
+uart:2: ttyAMA2 at MMIO 0x200a0000 (irq = 42) is a PL011 rev2
+uart:3: ttyAMA3 at MMIO 0x200b0000 (irq = 43) is a PL011 rev2
+bio: create slab <bio-0> at 0
+raid6: int32x1     32 MB/s
+raid6: int32x2     56 MB/s
+raid6: int32x4     75 MB/s
+raid6: int32x8    101 MB/s
+raid6: using algorithm int32x8 (101 MB/s)
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+cfg80211: Calling CRDA to update world regulatory domain
+Switching to clocksource timer1
+FS-Cache: Loaded
+CacheFiles: Loaded
+NET: Registered protocol family 2
+IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+Trying to unpack rootfs image as initramfs...
+rootfs image is not initramfs (junk in compressed archive); looks like an initrd
+Freeing initrd memory: 7792K
+NetWinder Floating Point Emulator V0.97 (double precision)
+L2cache cache controller enabled
+VFS: Disk quotas dquot_6.5.2
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+DLM installed
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+NTFS driver 2.1.30 [Flags: R/W].
+fuse init (API version 7.16)
+SGI XFS with security attributes, large block/inode numbers, no debug enabled
+msgmni has been set to 275
+alg: No test for stdrng (krng)
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+io scheduler noop registered
+io scheduler deadline registered (default)
+io scheduler cfq registered
+brd: module loaded
+loop: module loaded
+Loading iSCSI transport class v2.0-870.
+SCSI Media Changer driver v0.25 
+ahci: SSS flag set, parallel bus scan disabled
+ahci ahci.0: AHCI 0001.0200 32 slots 2 ports 3 Gbps 0x3 impl platform mode
+ahci ahci.0: flags: ncq sntf stag pm led clo only pmp pio slum part ccc sxs boh 
+scsi0 : ahci_platform
+scsi1 : ahci_platform
+ata1: SATA max UDMA/133 mmio [mem 0x10080000-0x1008ffff] port 0x100 irq 52
+ata2: SATA max UDMA/133 mmio [mem 0x10080000-0x1008ffff] port 0x180 irq 52
+Spi id table Version 1.22
+Spi(cs1) ID: 0xC2 0x20 0x18 0xC2 0x20 0x18
+SPI FLASH start_up_mode is 3 Bytes
+Spi(cs1): 
+Block:64KB 
+Chip:16MB 
+Name:"MX25L128XX"
+spi size: 16MB
+chip num: 1
+6 cmdlinepart partitions found on MTD device hi_sfc
+Creating 6 MTD partitions on "hi_sfc":
+0x000000000000-0x000000080000 : "U"
+0x000000080000-0x0000000c0000 : "E"
+0x0000000c0000-0x000000100000 : "L"
+0x000000100000-0x000000180000 : "C"
+0x000000180000-0x000000400000 : "K"
+0x000000400000-0x000001000000 : "R"
+Fixed MDIO Bus: probed
+ata1: SATA link down (SStatus 0 SControl 300)
+himii: probed
+ata2: SATA link down (SStatus 0 SControl 300)
+Invalid HW-MAC Address: 00:00:00:00:00:00
+Set Random MAC address: CA:44:D0:61:26:75
+PPP generic driver version 2.4.2
+PPP Deflate Compression module registered
+PPP BSD Compression module registered
+PPP MPPE Compression module registered
+NET: Registered protocol family 24
+SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256).
+CSLIP: code copyright 1989 Regents of the University of California.
+SLIP linefill/keepalive option.
+usbmon: debugfs is not available
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+hiusb-ehci hiusb-ehci.0: HIUSB EHCI
+hiusb-ehci hiusb-ehci.0: new USB bus registered, assigned bus number 1
+hiusb-ehci hiusb-ehci.0: irq 53, io mem 0x100b0000
+hiusb-ehci hiusb-ehci.0: USB 0.0 started, EHCI 1.00
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+hiusb-ohci hiusb-ohci.0: HIUSB OHCI
+hiusb-ohci hiusb-ohci.0: new USB bus registered, assigned bus number 2
+hiusb-ohci hiusb-ohci.0: irq 54, io mem 0x100a0000
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 2 ports detected
+usbcore: registered new interface driver cdc_acm
+cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver ums-alauda
+usbcore: registered new interface driver ums-cypress
+usbcore: registered new interface driver ums-datafab
+usbcore: registered new interface driver ums_eneub6250
+usbcore: registered new interface driver ums-freecom
+usbcore: registered new interface driver ums-isd200
+usbcore: registered new interface driver ums-jumpshot
+usbcore: registered new interface driver ums-karma
+usbcore: registered new interface driver ums-onetouch
+usbcore: registered new interface driver ums-realtek
+usbcore: registered new interface driver ums-sddr09
+usbcore: registered new interface driver ums-sddr55
+usbcore: registered new interface driver ums-usbat
+usbcore: registered new interface driver usbserial
+USB Serial support registered for generic
+usbcore: registered new interface driver usbserial_generic
+usbserial: USB Serial Driver core
+USB Serial support registered for GSM modem (1-port)
+usbcore: registered new interface driver option
+option: v0.7.2:USB Driver for GSM modems
+mousedev: PS/2 mouse device common for all mice
+md: linear personality registered for level -1
+md: raid0 personality registered for level 0
+md: raid1 personality registered for level 1
+md: raid10 personality registered for level 10
+md: raid6 personality registered for level 6
+md: raid5 personality registered for level 5
+md: raid4 personality registered for level 4
+md: multipath personality registered for level -4
+md: faulty personality registered for level -5
+device-mapper: ioctl: 4.20.0-ioctl (2011-02-02) initialised: dm-devel@redhat.com
+device-mapper: multipath: version 1.3.0 loaded
+device-mapper: multipath round-robin: version 1.0.0 loaded
+device-mapper: multipath queue-length: version 0.1.0 loaded
+device-mapper: multipath service-time: version 0.2.0 loaded
+device-mapper: dm-log-userspace: version 1.1.0 loaded
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+TCP cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+NET: Registered protocol family 15
+802.1Q VLAN Support v1.8
+sctp: Hash tables configured (established 4096 bind 8192)
+lib80211: common routines for IEEE802.11 drivers
+md: Waiting for all devices to be available before autodetect
+md: If you don't use raid, use raid=noautodetect
+md: Autodetecting RAID arrays.
+md: Scanned 0 and added 0 devices.
+md: autorun ...
+md: ... autorun DONE.
+RAMDISK: squashfs filesystem found at block 0
+RAMDISK: Loading 7789KiB [1 disk] into ram disk... |/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-
+usb 1-2: new high speed USB device number 3 using hiusb-ehci
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-done.
+VFS: Mounted root (squashfs filesystem) readonly on device 1:0.
+devtmpfs: mounted
+Freeing init memory: 148K
+starting pid 662, tty '': '/etc/init.d/rcS'
+
+            _ _ _ _ _ _ _ _ _ _ _ _
+            \  _  _   _  _ _ ___
+            / /__/ \ |_/
+           / __   /  -  _ ___
+          / /  / /  / /
+  _ _ _ _/ /  /  \_/  \_ ______
+___________\___\__________________
+
+[RCS]: /etc/init.d/S00devs
+mknod: /dev/console: File exists
+mknod: /dev/ttyAMA0: File exists
+mknod: /dev/ttyAMA1: File exists
+[RCS]: /etc/init.d/S01udev
+udevd (673): /proc/673/oom_adj is deprecated, please use /proc/673/oom_score_adj instead.
+usb 2-1: new low speed USB device number 2 using hiusb-ohci
+input: INSTANT USB GAMING MOUSE  as /devices/platform/hiusb-ohci.0/usb2/2-1/2-1:1.0/input/input0
+generic-usb 0003:18F8:1286.0001: input: USB HID v1.10 Mouse [INSTANT USB GAMING MOUSE ] on usb-hiusb-ohci-1/input0
+input: INSTANT USB GAMING MOUSE  as /devices/platform/hiusb-ohci.0/usb2/2-1/2-1:1.1/input/input1
+generic-usb 0003:18F8:1286.0002: input: USB HID v1.10 Keyboard [INSTANT USB GAMING MOUSE ] on usb-hiusb-ohci-1/input1
+Jan  1 00:00:04 udevd-event[1011]: udev_node_mknod: unlink(/dev/pktcdvd) failed: Is a directory
+Jan  1 00:00:04 udevd-event[1011]: udev_node_mknod: mknod(/dev/pktcdvd, 020660, 10, 58) failed: File exists
+[RCS]: /etc/init.d/S02pppd
+[RCS]: /etc/init.d/S03pppoe
+PPPoE config
+[RCS]: /etc/init.d/S80network
+[RCS]: /etc/init.d/S81toe
+[RCS]: /etc/init.d/S98
+[RCS]: /etc/init.d/S99
+mount dir('/media/usb1') isn't exist now!
+PHY: himii:03 - Link is Up - 100/Full
+check sda...
+sda... not found
+check sdb...
+sdb... not found
+check sdc...
+sdc... not found
+check sdd...
+sdd... not found
+check sde...
+sde... not found
+check sdf...
+sdf... not found
+check sdg...
+sdg... not found
+check sdh...
+sdh... not found
+check sdi...
+sdi... not found
+check sdj...
+sdj... not found
+check sdk...
+sdk... not found
+check sdl...
+sdl... not found
+restore flag 1 not found.
+enable log not found.
+enable log2 not found.
+enable disk log not found.
+rmem_default:
+108544
+rmem_max:
+108544
+min_free_kbytes:
+1540
+Hisilicon Media Memory Zone Manager
+hi3520D_base: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+Hisilicon UMAP device driver interface: v3.00
+load sys.ko ...OK!
+Load tde.ko ...OK!
+load venc.ko ...OK!
+load group.ko ...OK!
+load chnl.ko ...OK!
+load h264e.ko ...OK!
+load rc.ko ...OK!
+load jpege.ko ...OK!
+load viu.ko ...OK!
+load vou.ko ....OK!
+load vpss.ko ....OK!
+load vda.ko ....OK!
+load region.ko ....OK!
+load vdec.ko ....OK
+load vhd firmware.ko OK
+load hdmi.ko ....OK!
+Load jpeg6b.ko success.		(SDK_VERSION:[jpeg6bv1.0] Build Time:[Sep 29 2014, 18:04:52])
+Hisilicon Watchdog Timer: 0.01 initialized. default_margin=60 sec (nowayout= 0, nodeamon= 1)
+HI3515 base @ 17:44:46 Jan 21 2017
+GPIO I2C for HI35xx @ 17:44:46 Jan 21 2017
+GPIO_MODE:RMII disable
+tmpClkV=0x002547ae
+GPIO_MODE:GPIO_PLAT_TYPE8
+PERI_CRG_REG51:addr=0x200300cc, val=0x00000002
+IO_CONFIG_REG(38):addr=0x200f0098, val=0x00000000
+IO_CONFIG_REG(39):addr=0x200f009c, val=0x00000000
+IO_CONFIG_REG(40):addr=0x200f00a0, val=0x00000000
+IO_CONFIG_REG(41):addr=0x200f00a4, val=0x00000000
+IO_CONFIG_REG(42):addr=0x200f00a8, val=0x00000000
+IO_CONFIG_REG(43):addr=0x200f00ac, val=0x00000000
+IO_CONFIG_REG(44):addr=0x200f00b0, val=0x00000000
+IO_CONFIG_REG(45):addr=0x200f00b4, val=0x00000000
+IO_CONFIG_REG(46):addr=0x200f00b8, val=0x00000001
+IO_CONFIG_REG(47):addr=0x200f00bc, val=0x00000001
+IO_CONFIG_REG(48):addr=0x200f00c0, val=0x00000000
+IO_CONFIG_REG(49):addr=0x200f00c4, val=0x00000000
+IO_CONFIG_REG(50):addr=0x200f00c8, val=0x00000000
+GPIO Init Succeed!
+input: keypad as /devices/virtual/input/input2
+Keypad for HI3515 @ 17:44:45 Jan 21 2017
+input: irda as /devices/virtual/input/input3
+Irda for HI3515 @ 17:44:46 Jan 21 2017
+do you want to run app.out(y or n)?
+[1;33mFound keypad@event2.
+[m[pre_run_app] cp
+[pre_run_app] chmod
+[pre_run_app] running...
+pre_run_app.sh end
+[pre_run_app] finish
+[1;34mJPROCESS::CRIT:[0m [ja_process.c: 677] new ok@parent
+[1;34mJPROCESS::CRIT:[0m [ja_process.c: 663] new ok@child
+[1;34mJPROCESS::CRIT:[0m [ja_process.c: 497] JPROCESS proc....
+[1;34mJPROCESS::CRIT:[0m [ja_process.c: 584] JPROCESS proc....
+[1;31mSTATIC->[GUIStatic]:154 lang0:name=English, file=0_english.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang1:name=Chinese_Mainland, file=1_chinese_mainland.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang2:name=Chinese_Hongkong, file=2_chinese_hongkong.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang3:name=Chinese_Taiwan, file=3_chinese_taiwan.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang4:name=Korean, file=4_korean.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang5:name=Japanese, file=5_japanese.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang6:name=Arabic, file=6_arabic.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang7:name=Persian, file=7_persian.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang8:name=Hebrew, file=8_hebrew.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang9:name=Portuguese, file=9_portuguese.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang10:name=Spanish, file=10_spanish.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang11:name=Hungarian, file=11_hungarian.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang12:name=Russian, file=12_russian.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang13:name=French, file=13_french.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang14:name=German, file=14_german.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang15:name=Thai, file=15_thai.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang16:name=Vietnamese, file=16_vietnamese.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang17:name=Turkish, file=17_turkish.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang18:name=Italian, file=18_italian.fnt[m
+[1;31mSTATIC->[GUIStatic]:154 lang19:name=Danish, file=19_danish.fnt[m
+[1;31mSTATIC->[LoadLangFile]:81 tmp_path=static/0_english.fnt[m
+[1;31mSTATIC->[LoadLangFile]:88 file=0_english.fnt flag=feefface count=1129[m
+wait for app to prepare environment....
+wait for app to prepare environment....
+get value device_model failed
+get value main_stream failed
+ENVIRONMENT: check 2nd crc = 5ebf
+[1;33mINFO : 1406:[DVR_InitTestMode:1043]@19:37:00  enter main application
+[mwait for app to prepare environment....
+wait for app to prepare environment....
+Secure CRC ERROR!
+killall: upnp_server: no process killed
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1410) wait done
+Device Name: NVR
+Device Model: K9608-W
+Device ID: NP771310453316
+Device ID KEY: 00000000000000000000000000000000
+Device Software Version: 2.5.5 0
+
+Camera: 8
+Audio: 8
+Sensor: 4
+Alarm: 1
+Hard Disk Driver: 4
+Series Code: NP
+
+
+[0;32;32mDEBUG: 1406:[dvr_init_prepare:1711]@19:37:02  begin
+[m[0;32;32mDEBUG: 1406:[dvr_init_prepare:1733]@19:37:02  end
+[mENVIRONMENT: check 2nd crc = 5ebf
+[0;32;32mDEBUG: 1406:[dvr_init_keep_proc:1631]@19:37:02  begin
+[m[0;32;32mDEBUG: 1406:[NK_InitSearchConfig:299]@19:37:02  Successful load the ipc default list.
+[m[0;37mDVR->[DVR_Init]:1905 isNeedRecoverEnv = 0,No change env Need to Recover.
+[m
+filesize = 0
+[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:334]  before setup time now: Thu Jun  2 19:37:03 2005
+[0m[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:336]  gmttime: Thu Jun  2 19:37:03 2005
+[0m[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:338]  localtime: Thu Jun  2 19:37:03 2005
+[0m[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:342]  set system timezone to +07:00 (12, 25200)
+[0m[1;36mTZONE_DEBUG: 1406:[set_system_tzone_offset2:247]  set TZ ENV to : GMT-07:00 success !
+[0m[1;36mTZONE_DEBUG: 1406:[set_system_tzone_offset2:255]  tzname:GMT/ tzone:-25200 daylight:0
+[0m[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:353]      GMT Time: Thu Jun  2 19:37:03 2005
+[0m[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:354]          Local Time: Fri Jun  3 02:37:03 2005
+[0m[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:356]  time now: Fri Jun  3 02:37:03 2005
+[0m[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:358]  gmttime: Thu Jun  2 19:37:03 2005
+[0m[1;36mTZONE_DEBUG: 1406:[TZONE_set_index:360]  localtime: Fri Jun  3 02:37:03 2005
+[1;35mDVR::INFO:[0m [       dvr.c:2016] start in normal mode (0)!
+[1;35mDEVIDE_MODE::INFO:[0m [nk_device_info.c:  77] nk_DeviceInfoInit succeed filter_enable = 0, manufacturer = Normal!
+[0m[0;37mDVR->[DVR_Init]:2075 vga [1024,768] cvbs [704,576][m
+[0;37mTIMETICK->[timetick.c]:240 task list is empty[m
+[0;37mTIMETICK->[timetick.c]:112 TIMETICK pid=1406 tid=420de4c0 begin[m
+Init Serial Code: NP771310453316
+[0;37mSYSTEM->[SYSTEM_SetTime]:640 RTC time is Fri Jun  3 02:37:03 2005
+[m
+ [1;36m  --GMT Time: Thu Jun  2 19:37:03 2005
+ [0m [1;36m  --Local Time: Fri Jun  3 02:37:03 2005
+  [0m [1;36m  --SYS CUR PTS: 1117741023154996  Fri Jun  3 02:37:03 2005
+[1;35mJCM::INFO:[0m [   app_jcm.c: 932] g_thread_supported not yet!!!
+[0mAPP_WIFI_init(0-0)
+[32;1m[WIFI::nk_wifi.c-37][0m WIFI SDK BUILD ON 20170112
+[32;1m[WIFI::wifi_usb1.c-673][0m Initialing Wifi USB1 module...
+ENVIRONMENT: check 2nd crc = 5ebf
+Initialize iRTL871X: module init start
+nternal port.
+SRTL871X: rtl8188eu v4.3.0.6_12167.20150923
+et server on uniRTL871X: build time: Nov 21 2016 17:39:58
+x domain ok.
+Subthread stack size:307200
+Start thread code:0 ibFWReady == _FALSE call reset 8051...
+d:40056000
+SOCK-ERROR: connect failed @ SOCK_ERR=2DVRCOMM: connect 127.0.0.1:9012 failed, after 5 seconds retry.
+RTL871X: rtw_ndev_init(wlan0)
+usbcore: registered new interface driver rtl8188eu
+RTL871X: module init ret=0
+==> rtl8188e_iol_efuse_patch 
+sh: you need to specify whom to kill
+<<< set Hostapd configue success!!! 
+sh: you need to specify whom to kill
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1445) wait done
+sh: you need to specify whom to kill
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1448) wait done
+Configuration file: /tmp/wps_ap.conf
+drv->ifindex=3
+l2_sock_recv==l2_sock_xmit=0x0x436c00
++rtl871x_sta_deauth_ops, ff:ff:ff:ff:ff:ff is deauth, reason=2
+rtl871x_set_key_ops
+rtl871x_set_key_ops
+rtl871x_set_key_ops
+rtl871x_set_key_ops
+Using interface wlan0 with hwaddr 9c:a3:a9:2b:0a:1e and ssid 'NVR9ca3a92b0a1e'
+rtl871x_set_wps_assoc_resp_ie
+rtl871x_sRTL871X: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+et_wps_beacon_ie
+rtl871x_set_wps_probe_resp_ie
+rtl871x_set_key_ops
+rtl871x_set_beacon_ops
+RTL871X: assoc success
+rtl871x_set_hidden_ssid ignore_broadcast_ssid:0, NVR9ca3a92b0a1e,15
+rtl871x_set_acl
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1451) wait done
+<<< start hostapd success!!! 
+SOCK-ERROR: connect failed @ SOCK_ERR=2DVRCOMM: connect 127.0.0.1:9012 failed, after 5 seconds retry.
+[37m[new_intf/gui_stage_sdl_lite.cpp: 213][0m resolution = 1
+gui-app sync retry 1
+gui-app sync retry 2
+<<< wifi start success!!
+[0;32;32mDEBUG: 1406:[XENVACT_set_ip:242]@02:37:10  u8IPAddr = c0 a8 1 a
+[m[0;32;32mDEBUG: 1406:[XENVACT_set_ip:307]@02:37:10  setup mac address!
+[meth0      Link encap:Ethernet  HWaddr 00:05:FE:99:48:94  
+          inet addr:192.168.1.114  Bcast:192.168.1.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:56 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlan0     Link encap:Ethernet  HWaddr 9C:A3:A9:2B:0A:1E  
+          inet addr:172.20.14.1  Bcast:172.20.14.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1460) wait done
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+172.20.14.0     *               255.255.255.0   U         0 0          0 wlan0
+192.168.1.0     *               255.255.255.0   U         0 0          0 eth0
+224.0.0.0       *               224.0.0.0       U         0 0          0 eth0
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1463) wait done
+[0;32;32mDEBUG: 1406:[XENVACT_set_ip:354]@02:37:10  setup ip finished!
+[m[0;32;32mDEBUG: 1406:[XENVACT_PPPoE_Start:682]@02:37:10  start ppp0(pppoe)...
+[m[0;32;32mDEBUG: 1406:[XENVACT_PPPoE_Config:547]@02:37:10  config ppp0(pppoe)...
+[m[0;32;32mDEBUG: 1406:[XENVACT_PPPoE_Config:551]@02:37:10  pppoe-config pppoe12345667890 pppoe12345667890 eth0
+[mPHY: himii:03 - Link is Up - 100/Full
+Welcome to the Roaring Penguin PPPoE client setup.  First, I will run
+some checks on your system to make sure the PPPoE client is installed
+properly...
+
+Looks good3!  Now, please enter some information:
+Adjusting /etc/ppp/pppoe.conf
+cp: can't create '/etc/ppp/pppoe.conf-bak': File exists
+Adjusting /etc/ppp/pap-secrets and /etc/ppp/chap-secrets
+cp: can't create '/etc/ppp/pap-secrets-bak': File exists
+cp: can't create '/etc/ppp/chap-secrets-bak': File exists
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1467) wait done
+[0;32;32mDEBUG: 1406:[XENVACT_PPPoE_Config:554]@02:37:11  config ppp0(pppoe) finished!
+[m[0;32;32mDEBUG: 1406:[XENVACT_PPPoE_Start:710]@02:37:11  start ppp0(pppoe) finished!
+[m[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 322] new(NK_ALARM) maxQueue:129 maxThread:8 ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NK_ALARM new thread(0) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NK_ALARM new thread(1) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NK_ALARM new thread(2) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NK_ALARM new thread(3) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NK_ALARM new thread(4) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NK_ALARM new thread(5) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NK_ALARM new thread(6) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NK_ALARM new thread(7) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 382] NK_ALARM start ok
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event HDDs Are Not Found!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event Disk Error!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event Insufficient Disk Space!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event Network Disconnection!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event This IP Is Conflicted!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event Record Error!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event DOOR_MAGNETIC!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event INFRARED_SENSOR!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event GAS_SENSOR!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event TELEVOX_BODY_SENSOR!
+[1;35mNK_ALARM::INFO:[0m [  nk_alarm.c: 283] NK_ALARM add event WIRE_CONTROL!
+QR code cmd:/root/zint -o /tmp/qrcode/wechat.bmp -b 58 --border=1 --scale=3.25 --kanji -d "http://weixin.qq.com/r/kEzexpPEZc4ardel9xmC"
+gui-app sync retry 3
+QR code cmd:/root/zint -o /tmp/qrcode/android.bmp -b 58 --border=1 --scale=3.25 --kanji -d "http://www.dvr163.com/download/android.php?l=en"
+QR code cmd:/root/zint -o /tmp/qrcode/ios.bmp -b 58 --border=1 --scale=3.25 --kanji -d "http://www.dvr163.com/download/ios.php?l=en"
+QR code cmd:/root/zint -o /tmp/qrcode/localip.bmp -b 58 --border=1 --scale=2.85 --kanji -d "http://192.168.1.114:80/index.cgi?username=admin&type=localip&lang=zh_CN"
+QR code cmd:/root/zint -o /tmp/qrcode/eseeid.bmp -b 58 --border=1 --scale=4.35 --kanji -d "1310453316"
+QR code cmd:/root/zint -o /tmp/qrcode/Support_Website.bmp -b 58 --border=1 --scale=3.70 --kanji -d "http://www.e-seenet.com"
+input: keypad as /devices/virtual/input/input4
+Keypad for HI3515 @ 17:44:45 Jan 21 2017
+[1;33m[ media_buf.c:  42][0m media buf init success
+[1;33m[media_pool.c: 226][0m create media buf ch0_0.264
+[1;33m[media_pool.c: 226][0m create media buf ch0_1.264
+[1;33m[media_pool.c: 226][0m create media buf ch1_0.264
+[1;33m[media_pool.c: 226][0m create media buf ch1_1.264
+[1;33m[media_pool.c: 226][0m create media buf ch2_0.264
+[1;33m[media_pool.c: 226][0m create media buf ch2_1.264
+[1;33m[media_pool.c: 226][0m create media buf ch3_0.264
+[1;33m[media_pool.c: 226][0m create media buf ch3_1.264
+[1;33m[media_pool.c: 226][0m create media buf ch4_0.264
+[1;33m[media_pool.c: 226][0m create media buf ch4_1.264
+[1;33m[media_pool.c: 226][0m create media buf ch5_0.264
+[1;33m[media_pool.c: 226][0m create media buf ch5_1.264
+[1;33m[media_pool.c: 226][0m create media buf ch6_0.264
+[1;33m[media_pool.c: 226][0m create media buf ch6_1.264
+[1;33m[media_pool.c: 226][0m create media buf ch7_0.264
+[1;33m[media_pool.c: 226][0m create media buf ch7_1.264
+rmmod: can't unload 'es8323': unknown symbol in module, or unknown parameter
+pox_system:command=rmmod es8323,child status=256,return=1
+gui-app sync retry 4
+ES8323 driver v1.00.017,build time:Jan 21 2017 17:44:46
+Es8323_postphone_init:begin
+Es8323_postphone_init:audio codec not exist!
+Es8323_postphone_init:end
+SOCK-ERROR: connect failed @ SOCK_ERR=2DVRCOMM: connect 127.0.0.1:9012 failed, after 5 seconds retry.
+gui-app sync retry 5
+pox_syst[Es8323_ioctl, 596]: Unsupported Cmd -2147204856
+em:command=insmo[Es8323_ioctl, 596]: Unsupported Cmd 1074020609
+d /root/module/jn_module/es8323.ko,child status=0,return=0
+[1;35mAUDIO->[audio_nvr.c]:459 Live Loop Capability = No[m
+[1;35mAUDIO->[audio_nvr.c]:462 Playback Capability = No[m
+[1;35mAUDIO->[audio_nvr.c]:465 Set Sample Rate = 8000[m
+[1;35mAUDIO->[audio_nvr.c]:497 stAioAttr.u32ClkSel=1[m
+AEC invalid SampleRate(48000), FrameLen(960)
+[Func]:MPI_AI_AecInit [Line]:369 [Info]:aec open fail.
+set playback[Es8323_ioctl, 596]: Unsupported Cmd 16651
+
+[1;33mINFO : 1406:[StartAutoAddIPC:784]@02:37:14  ------Enable Intelligent Add------
+[m[1;35mNK_VERIFY::INFO:[0m [ nk_verify.c:  46] NK_VERIFY_Authentication is disable!
+[1;36m[nvc_player.c: 677][0m NVC PLAYER INIT DONE!!!!
+[1;36m[nvc_player.c: 677][0m NVC PLAYER INIT DONE!!!!
+[1;32m[       jdk.c: 273][0m JDK new ok!
+[1;32m[hisi/jdk_hi_3521.c: 212][0m fp != NULL
+[1;32m[hisi/jdk_hi_3521.c: 212][0m fp != NULL
+[1;32m[       jdk.c:1126][0m s_jdkCtx->adIface->init(s_jdkCtx->standard, JDK_TRUE)
+[1;32m[       jdk.c:1309][0m chn 0 probe mode is NET-960P , mux:0 cutmode:0
+[1;32m[hisi/jdk_hi_3521.c:1331][0m vi open 0 mode:8 state:0
+[1;32m[hisi/jdk_hi_3521.c:  36][0m vpss 8 size (1280, 960) pixFmt:19
+[1;34m[hisi/jdk_hi_3521.c:1185][0m net vi 0(1280 x 960) open
+[1;32m[       jdk.c:1309][0m chn 1 probe mode is NET-960P , mux:0 cutmode:0
+[1;32m[hisi/jdk_hi_3521.c:1331][0m vi open 1 mode:8 state:0
+[1;32m[hisi/jdk_hi_3521.c:  36][0m vpss 9 size (1280, 960) pixFmt:19
+[1;34m[hisi/jdk_hi_3521.c:1185][0m net vi 1(1280 x 960) open
+[1;32m[       jdk.c:1309][0m chn 2 probe mode is NET-960P , mux:0 cutmode:0
+[1;32m[hisi/jdk_hi_3521.c:1331][0m vi open 2 mode:8 state:0
+[1;32m[hisi/jdk_hi_3521.c:  36][0m vpss 10 size (1280, 960) pixFmt:19
+[1;34m[hisi/jdk_hi_3521.c:1185][0m net vi 2(1280 x 960) open
+[1;32m[       jdk.c:1309][0m chn 3 probe mode is NET-960P , mux:0 cutmode:0
+[1;32m[hisi/jdk_hi_3521.c:1331][0m vi open 3 mode:8 state:0
+[1;32m[hisi/jdk_hi_3521.c:  36][0m vpss 11 size (1280, 960) pixFmt:19
+[1;34m[hisi/jdk_hi_3521.c:1185][0m net vi 3(1280 x 960) open
+[1;32m[       jdk.c:1309][0m chn 4 probe mode is NET-960P , mux:0 cutmode:0
+[1;32m[hisi/jdk_hi_3521.c:1331][0m vi open 4 mode:8 state:0
+[1;32m[hisi/jdk_hi_3521.c:  36][0m vpss 12 size (1280, 960) pixFmt:19
+[1;34m[hisi/jdk_hi_3521.c:1185][0m net vi 4(1280 x 960) open
+[1;32m[       jdk.c:1309][0m chn 5 probe mode is NET-960P , mux:0 cutmode:0
+[1;32m[hisi/jdk_hi_3521.c:1331][0m vi open 5 mode:8 state:0
+[1;32m[hisi/jdk_hi_3521.c:  36][0m vpss 13 size (1280, 960) pixFmt:19
+[1;34m[hisi/jdk_hi_3521.c:1185][0m net vi 5(1280 x 960) open
+[1;32m[       jdk.c:1309][0m chn 6 probe mode is NET-960P , mux:0 cutmode:0
+[1;32m[hisi/jdk_hi_3521.c:1331][0m vi open 6 mode:8 state:0
+[1;32m[hisi/jdk_hi_3521.c:  36][0m vpss 14 size (1280, 960) pixFmt:19
+[1;34m[hisi/jdk_hi_3521.c:1185][0m net vi 6(1280 x 960) open
+[1;32m[       jdk.c:1309][0m chn 7 probe mode is NET-960P , mux:0 cutmode:0
+[1;32m[hisi/jdk_hi_3521.c:1331][0m vi open 7 mode:8 state:0
+[1;32m[hisi/jdk_hi_3521.c:  36][0m vpss 15 size (1280, 960) pixFmt:19
+[1;34m[hisi/jdk_hi_3521.c:1185][0m net vi 7(1280 x 960) open
+[1;32m[hisi/jdk_hi_3521.c: 403][0m vodev:0, offset(0, 0) imgW:1024 imgH:768 dispW:1024 dispH:768
+[1;32m[hisi/jdk_hi_3521.c: 483][0m vodev:0 init success!
+	dec chn 0(0) (720 x 576) opening...
+dec chn 0 (720 x 576) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+	dec chn 1(1) (720 x 576) opening...
+dec chn 1 (720 x 576) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+	dec chn 2(2) (720 x 576) opening...
+dec chn 2 (720 x 576) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+	dec chn 3(3) (720 x 576) opening...
+dec chn 3 (720 x 576) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+	dec chn 4(4) (720 x 576) opening...
+dec chn 4 (720 x 576) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+	dec chn 5(5) (720 x 576) opening...
+dec chn 5 (720 x 576) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+	dec chn 6(6) (720 x 576) opening...
+dec chn 6 (720 x 576) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+	dec chn 7(7) (720 x 576) opening...
+dec chn 7 (720 x 576) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+[1;34m[hisi/jdk_hi_3521.c:1584][0m bind vdec (0)->vo(0)
+[1;34m[hisi/jdk_hi_3521.c:1584][0m bind vdec (1)->vo(1)
+[1;34m[hisi/jdk_hi_3521.c:1584][0m bind vdec (2)->vo(2)
+[1;34m[hisi/jdk_hi_3521.c:1584][0m bind vdec (3)->vo(3)
+[1;34m[hisi/jdk_hi_3521.c:1584][0m bind vdec (4)->vo(4)
+[1;34m[hisi/jdk_hi_3521.c:1584][0m bind vdec (5)->vo(5)
+[1;34m[hisi/jdk_hi_3521.c:1584][0m bind vdec (6)->vo(6)
+[1;34m[hisi/jdk_hi_3521.c:1584][0m bind vdec (7)->vo(7)
+[1;34m[hisi/jdk_hi_3521.c: 624][0m vo dev:0 chn 0 hide
+[1;34m[hisi/jdk_hi_3521.c: 624][0m vo dev:0 chn 1 hide
+[1;34m[hisi/jdk_hi_3521.c: 624][0m vo dev:0 chn 2 hide
+[1;34m[hisi/jdk_hi_3521.c: 624][0m vo dev:0 chn 3 hide
+[1;34m[hisi/jdk_hi_3521.c: 624][0m vo dev:0 chn 4 hide
+[1;34m[hisi/jdk_hi_3521.c: 624][0m vo dev:0 chn 5 hide
+[1;34m[hisi/jdk_hi_3521.c: 624][0m vo dev:0 chn 6 hide
+[1;34m[hisi/jdk_hi_3521.c: 624][0m vo dev:0 chn 7 hide
+[1;34m[hisi/jdk_hi_3521.c: 555][0m vo dev:0 chn 0 open
+[1;34m[hisi/jdk_hi_3521.c: 710][0m vo show user pic @chn:0
+your switch division 4 to division 4,page 0 to page 0
+your switch channels 0~8 to channels 0~8
+Main Grids:8(<--------- 8)
+[1;32m[       jdk.c:1568][0m s_jdkCtx->vdecIface->detach_chn != NULL
+[1;32m[       jdk.c:1793][0m jdk_vi_format_check_proc....
+[1;32m[       jdk.c:1636][0m JDK Loss Loop....
+[1;32m[       jdk.c:1666][0m >>>>>>>>> VLOSS 18446744073709551360, curState:255
+dec chn 7 close
+[1;32m[       jdk.c:1568][0m s_jdkCtx->vdecIface->detach_chn != NULL
+dec chn 6 close
+[1;32m[       jdk.c:1568][0m s_jdkCtx->vdecIface->detach_chn != NULL
+dec chn 5 close
+[1;32m[       jdk.c:1568][0m s_jdkCtx->vdecIface->detach_chn != NULL
+dec chn 4 close
+[1;32m[       jdk.c:1568][0m s_jdkCtx->vdecIface->detach_chn != NULL
+dec chn 3 close
+[1;32m[       jdk.c:1568][0m s_jdkCtx->vdecIface->detach_chn != NULL
+dec chn 2 close
+[1;32m[       jdk.c:1568][0m s_jdkCtx->vdecIface->detach_chn != NULL
+dec chn 1 close
+[1;32m[       jdk.c:1568][0m s_jdkCtx->vdecIface->detach_chn != NULL
+dec chn 0 close
+Chn = 7 from DecodeChn_Ready_Init()
+	dec chn 7(7) (1280 x 960) opening...
+dec chn 7 (1280 x 960) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+Chn = 6 from DecodeChn_Ready_Init()
+	dec chn 6(6) (1280 x 960) opening...
+[1;36m[nvc_player.c: 273][0m NVC PLAYER CH7 DEC_CHN:7 MAIN (ch7_0.264) START...
+dec chn 6 (1280 x 960) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+Chn = 5 from DecodeChn_Ready_Init()
+	dec chn 5(5) (1280 x 960) opening...
+[1;36m[nvc_player.c: 273][0m NVC PLAYER CH6 DEC_CHN:6 MAIN (ch6_0.264) START...
+dec chn 5 (1280 x 960) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+Chn = 4 from DecodeChn_Ready_Init()
+	dec chn 4(4) (1280 x 960) opening...
+dec chn 4 (1280 x 960) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+Chn = 3 from DecodeChn_Ready_Init()
+	dec chn 3(3) (1280 x 960) opening...
+[1;36m[nvc_player.c: 273][0m NVC PLAYER CH5 DEC_CHN:5 MAIN (ch5_0.264) START...
+[1;36m[nvc_player.c: 273][0m NVC PLAYER CH4 DEC_CHN:4 MAIN (ch4_0.264) START...
+dec chn 3 (1280 x 960) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+Chn = 2 from DecodeChn_Ready_Init()
+	dec chn 2(2) (1280 x 960) opening...
+[1;36m[nvc_player.c: 273][0m NVC PLAYER CH3 DEC_CHN:3 MAIN (ch3_0.264) START...
+dec chn 2 (1280 x 960) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+Chn = 1 from DecodeChn_Ready_Init()
+	dec chn 1(1) (1280 x 960) opening...
+[1;36m[nvc_player.c: 273][0m NVC PLAYER CH2 DEC_CHN:2 MAIN (ch2_0.264) START...
+dec chn 1 (1280 x 960) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+Chn = 0 from DecodeChn_Ready_Init()
+	dec chn 0(0) (1280 x 960) opening...
+[1;36m[nvc_player.c: 273][0m NVC PLAYER CH1 DEC_CHN:1 MAIN (ch1_0.264) START...
+dec chn 0 (1280 x 960) open
+[1;32m[       jdk.c:1556][0m s_jdkCtx->vdecIface->attach_chn != NULL
+[1;35mAUDIO->[audio_nvr.c]:361 tunnel = 1 active[m
+[1;34m[hisi/jdk_hi_3521.c: 710][0m vo show user pic @chn:0
+[1;36m[nvc_player.c: 273][0m NVC PLAYER CH0 DEC_CHN:0 MAIN (ch0_0.264) START...
+gui-app sync retry 6
+gui-app sync retry 7
+gui-app sync retry 8
+gui-app sync retry 9
+[1;34mNK_DISK::CRIT:[0m [  disk_chk.c: 113] NK DISK CHK Init Done!
+umount: can't forcibly umount /root/rec/*: No such file or directory
+disk policy is XDISK_POLICY_OVER_WRITE
+using disk = -1
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 0 interval 1[m
+[0;32;31mERROR: 1406:[XREC_init:639]@02:37:18  XREC_init stop by XDISK not ready
+[mnew audio rb ok!
+[1;31m[     httpd.c:  43][0m Add a new cgi "/moo"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/snapshot"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/cgi-bin/flv.cgi"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/bubble/live"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/cgi-bin/jscript.cgi"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/cgi-bin/gw.cgi"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/cgi-bin/snapshot.cgi"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/cgi-bin/sp.cgi"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/cgi-bin/upload.cgi"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/cgi-bin/upgrade_rate.cgi"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/cgi-bin/online_upgrade.cgi"
+[1;31m[     httpd.c:  43][0m Add a new cgi "/index.cgi"
+[1;33mNK_DISK::WARNING:[0m [  disk_chk.c: 969] get disks failed@ret:0!
+route: SIOCADDRT: File exists
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1544) wait done
+SOCK-INFO: listen start success @/tmp/subs_mgnt_listen.sock(sock:85)
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 322] new(SUBS_MGNT_JOB) maxQueue:37 maxThread:5 ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] SUBS_MGNT_JOB new thread(0) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] SUBS_MGNT_JOB new thread(1) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] SUBS_MGNT_JOB new thread(2) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] SUBS_MGNT_JOB new thread(3) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] SUBS_MGNT_JOB new thread(4) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 382] SUBS_MGNT_JOB start ok
+[1;35mSUS_MGNT::INFO:[0m [subscribe_mgnt.c: 979] subscirbe_mngt_proc start @pid:48f504c0
+[1;35mSUS_MGNT::INFO:[0m [subscribe_mgnt.c: 889] subscribe_mngt_proc start, pid()...
+SOCK-ERROR: connect failed @ SOCK_ERR=2DVRCOMM: connect 127.0.0.1:9012 failed, after 5 seconds retry.
+gui-app sync retry 10
+gui-app sync retry 11
+[32;1m[WIFI::wifi_usb1.c-951][0m adapter monitor thread id (1113244864) start.
+
+[37;1;32m[     spook.c: 542][0m Spook note path "/tmp/spook"
+[37;1;32m[     spook.c: 404][0m "owsp" got a spook vocation @ 0!
+[37;1;32m[     spook.c: 404][0m "bubble" got a spook vocation @ 1!
+[37;1;32m[     spook.c: 404][0m "httpd" got a spook vocation @ 2!
+[37;1;32m[     spook.c: 404][0m "rtmpd" got a spook vocation @ 3!
+[1;33mINFO : 1406:[TS_init:380]@02:37:20  starting pthread_net_input, tid 1074753536, pid 1406 begin
+
+[mSOCK-INFO: listen start success @/tmp/comm_server.sock(sock:87)
+[1;33m[JAP2P|soup_util.cpp:27]UCODEC -> NP771310453316
+[0m[0m[JAP2P|udxa.cpp:480]udx start service on port<46291>
+[0m[0m[JAP2P|udxa.cpp:323]set static esee[www.msndvr.com]
+[0m[1;33m[JAP2P|soup.cpp:445]add "spook" over vcon 
+[1;35mSUS_MGNT::INFO:[0m [subscribe_mgnt.c: 920] accept client:93!
+[1;35mONVIF::INFO:[0m [    onvifC.c: 356] onvif discover thread (0x493874c0) start...
+[0m[0m[JAP2P|udxa.cpp:61]JANP771310453316 start login
+[0mAlarm success
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 1 interval 1[m
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 2 interval 5[m
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 3 interval 1[m
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 4 interval 1[m
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 5 interval 5[m
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 6 interval 30[m
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 7 interval 10[m
+[0;32;32mDEBUG: 1406:[XDDNS_init:81]@02:37:20  DDNS start.
+[m[0;32;32mDEBUG: 1406:[XDDNS_init:92]@02:37:20  DDNS end.
+[m[1;35mAPP-JCM::INFO:[0m [   app_jcm.c:1660] Enable IPC ID OSD -1
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSink count:2
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSink count:2
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSink count:2
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSink count:2
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSink count:2
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSink count:2
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSink count:2
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSink count:2
+START ALARM PTHREAD
+setsockopt error! error code = 19,err string = No such device
+[1;35mJCM::INFO:[0m [jcm_basesrc.c: 407] new src(0x2630d78) type: HICHIP-KVC
+[1;35mJCM::INFO:[0m [jcm_factory.c: 185] check basesrc result: TRUE
+[1;35mJCM::INFO:[0m [jcm_object.c: 150] ref JcmBaseSrc count:2
+[1;35mJCM::INFO:[0m [   jcm_chn.c: 255] chn(0) link source(0x2630d78)
+gui-app sync retry 12
+[1;35mJCM::INFO:[0m [jcm_basesrc.c:1150] source:0x2630d78 stream-index:0 proc start...
+[1;35mHICHIP::INFO:[0m [hichip_stream.c: 788] hichip new (172.20.14.37:80) user(admin:)
+[1;35mHICHIP::INFO:[0m [hichip_stream.c: 788] hichip new (172.20.14.37:80) user(admin:)
+[1;35mJCM::INFO:[0m [jcm_basesrc.c:1184] source:0x2630d78 stream-index:0 loop...
+[1;35mJCM::INFO:[0m [jcm_basesrc.c:1150] source:0x2630d78 stream-index:1 proc start...
+[1;33mINFO : 1406:[on_connect:175]@02:37:22  upnp is Connected! socket_index=3
+[mSOCK-ERROR: connect failed @ SOCK_ERR=2SOCK-ERROR: connect failed @ SOCK_ERR=2SOCK-ERROR: connect failed @ SOCK_ERR=2SOCK-ERROR: connect failed @ SOCK_ERR=2SOCK-ERROR: connect failed @ SOCK_ERR=2SOCK-ERROR: connect failed @ SOCK_ERR=2SOCK-ERROR: connect failed @ SOCK_ERR=2SOCK-ERROR: connect failed @ SOCK_ERR=2SOCK-ERROR: connect failed @ SOCK_ERR=2------------UPNP_SERVER GOT_CmdType: 1
+[2005-6-2 19:37:22 JANATSvr_PMNewPorts] Start Port Mapping: w[80], c[80]
+
+upnp get gw :192.168.1.1 from app
+upnp get channel number :8 from app 
+gui-app sync retry 13
+SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;35m[ hichip_v2.c: 186][0m hich_json_request to 172.20.14.37:80 http://172.20.14.37:80/netsdk/audio/encode/channel/101 failed errorno:3!
+gui-app sync retry 14
+SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;35m[ hichip_v2.c: 186][0m hich_json_request to 172.20.14.37:80 http://172.20.14.37:80/NetSDK/Video/encode/channel/101/datetimeOverlay failed errorno:3!
+[1;35m[ hichip_v2.c: 545][0m Set Datetime Overlay::timeFormat=24 Failed
+gUpnpTimeCnt = 14, gUpnpTimeOut = 1 To Call UPNPCD.
+DVRCOMM: connect to /tmp/comm_server.sock (/tmp/comm_gui_client.sock) ok
+DVRCOMM: connect 127.0.0.1:9012 ok.
+[1;33mINFO : 1406:[on_connect:158]@02:37:24  dvr_gui is Connected! socket_index=4
+[mSendPack DNS error
+[2005-6-2 19:37:24 rcvNATEventProc] JANATSvr_Identify Port 0 Failed
+sysname = Linux.
+nodename = (none).
+release = 3.0.8
+version = #7 Sat Nov 19 08:35:53 CST 2016
+machine = armv7l
+Init embedded fbcondFB ACCEL = 0 mmio_len = 0
+file("font/asc20")=5126
+file("font/hzk20")=490686
+ENVIRONMENT: check 2nd crc = 5ebf
+[1;31mSTATIC->[LoadLangFile]:81 tmp_path=static/0_english.fnt[m
+[1;31mSTATIC->[LoadLangFile]:88 file=0_english.fnt flag=feefface count=1129[m
+Initialize skin ....[1;33mname: BACKGROUND
+status: 1
+	status rect0: [320,178,20,1]
+	font color0: 0x00000000 0x00000000
+part: 1
+	part rect4: [0,0,20,2]
+adorn: 0
+active: 0
+[m
+[1;33mname: DIALOG
+status: 1
+	status rect0: [300,130,300,55]
+	font color0: 0x00000000 0x00000000
+part: 9
+	part rect0: [0,0,130,40]
+	part rect1: [130,0,10,40]
+	part rect2: [170,0,130,40]
+	part rect3: [0,40,30,4]
+	part rect4: [30,40,30,4]
+	part rect5: [270,40,30,4]
+	part rect6: [0,50,30,5]
+	part rect7: [30,50,30,5]
+	part rect8: [270,50,30,5]
+adorn: 0
+active: 0
+[m
+[1;33mname: LABEL
+status: 1
+	status rect0: [0,0,0,0]
+	font color0: 0xffc0c0c0 0x00000000
+part: 9
+adorn: 0
+active: 0
+[m
+[1;33mname: BUTTON
+status: 6
+	status rect0: [0,0,100,30]
+	status rect1: [100,0,100,30]
+	status rect2: [200,0,100,30]
+	status rect3: [300,0,100,30]
+	status rect4: [400,0,100,30]
+	status rect5: [500,0,100,30]
+	font color0: 0xffffffff 0x00000000
+	font color1: 0xff000000 0x00000000
+	font color2: 0xff000000 0x00000000
+	font color3: 0xff808080 0x00000000
+	font color4: 0x00000000 0x00000000
+	font color5: 0x00000000 0x00000000
+part: 3
+	part rect3: [0,0,16,30]
+	part rect4: [16,0,68,30]
+	part rect5: [84,0,16,30]
+adorn: 0
+active: 0
+[m
+[1;33mname: CHECKBOX
+status: 6
+	status rect0: [0,30,20,25]
+	status rect1: [20,30,20,25]
+	status rect2: [40,30,20,25]
+	status rect3: [60,30,20,25]
+	status rect4: [80,30,20,25]
+	status rect5: [100,30,20,25]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xffc0c0c0 0x00000000
+	font color2: 0xffc0c0c0 0x00000000
+	font color3: 0xffc0c0c0 0x00000000
+	font color4: 0xffc0c0c0 0x00000000
+	font color5: 0xffc0c0c0 0x00000000
+part: 1
+	part rect0: [0,0,20,25]
+adorn: 0
+active: 0
+[m
+[1;33mname: RADIO
+status: 6
+	status rect0: [120,30,20,25]
+	status rect1: [140,30,20,25]
+	status rect2: [120,30,20,25]
+	status rect3: [140,30,20,25]
+	status rect4: [120,30,20,25]
+	status rect5: [140,30,20,25]
+	font color0: 0x00000000 0x00000000
+	font color1: 0x00000000 0x00000000
+	font color2: 0x00000000 0x00000000
+	font color3: 0x00000000 0x00000000
+	font color4: 0x00000000 0x00000000
+	font color5: 0x00000000 0x00000000
+part: 1
+	part rect0: [0,0,20,25]
+adorn: 0
+active: 0
+[m
+[1;33mname: EDITBOX
+status: 3
+	status rect0: [0,55,100,25]
+	status rect1: [100,55,100,25]
+	status rect2: [200,55,100,25]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xffffffff 0x00000000
+	font color2: 0xffc0c0c0 0x00000000
+part: 3
+	part rect3: [0,0,10,25]
+	part rect4: [10,0,10,25]
+	part rect5: [90,0,10,25]
+adorn: 0
+active: 0
+[m
+[1;33mname: DATEEDIT
+status: 3
+	status rect0: [0,55,100,25]
+	status rect1: [100,55,100,25]
+	status rect2: [200,55,100,25]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xffffffff 0x00000000
+	font color2: 0xffc0c0c0 0x00000000
+part: 3
+	part rect3: [0,0,10,25]
+	part rect4: [10,0,80,25]
+	part rect5: [90,0,10,25]
+adorn: 1
+	adron rect0: [364,30,16,25]
+	adron rect1: [380,30,16,25]
+	adron rect2: [396,30,16,25]
+active: 0
+[m
+[1;33mname: TIMEEDIT
+status: 3
+	status rect0: [0,55,100,25]
+	status rect1: [100,55,100,25]
+	status rect2: [200,55,100,25]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xffffffff 0x00000000
+	font color2: 0xffc0c0c0 0x00000000
+part: 3
+	part rect3: [0,0,10,25]
+	part rect4: [10,0,80,25]
+	part rect5: [90,0,10,25]
+adorn: 1
+	adron rect0: [428,30,16,25]
+	adron rect1: [444,30,16,25]
+	adron rect2: [460,30,16,25]
+active: 0
+[m
+[1;33mname: MACEDIT
+status: 3
+	status rect0: [0,55,100,25]
+	status rect1: [100,55,100,25]
+	status rect2: [200,55,100,25]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xffffffff 0x00000000
+	font color2: 0xffc0c0c0 0x00000000
+part: 3
+	part rect3: [0,0,10,25]
+	part rect4: [10,0,80,25]
+	part rect5: [90,0,10,25]
+adorn: 0
+active: 0
+[m
+[1;33mname: IPEDIT
+status: 3
+	status rect0: [0,55,100,25]
+	status rect1: [100,55,100,25]
+	status rect2: [200,55,100,25]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xffffffff 0x00000000
+	font color2: 0xffc0c0c0 0x00000000
+part: 3
+	part rect3: [0,0,10,25]
+	part rect4: [10,0,80,25]
+	part rect5dvr_app uses obsolete (PF_INET,SOCK_PACKET)
+: [90,0,10,25]
+adorn: 0
+active: 0
+[m
+[1;33mname: TIMERANGE
+status: 3
+	status rect0: [0,55,100,25]
+	status rect1: [100,55,100,25]
+	status rect2: [200,55,100,25]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xffffffff 0x00000000
+	font color2: 0xffc0c0c0 0x00000000
+part: 3
+	part rect3: [0,0,10,25]
+	part rect4: [10,0,80,25]
+	part rect5: [90,0,10,25]
+adorn: 0
+active: 0
+[m
+[1;33mname: COMBOBOX
+status: 4
+	status rect0: [0,55,100,25]
+	status rect1: [100,55,100,25]
+	status rect2: [100,55,100,25]
+	status rect3: [200,55,100,25]
+	font color0: 0xffa0a0a0 0x00000000
+	font color1: 0xffffffff 0x00000000
+	font color2: 0xffffffff 0x00000000
+	font color3: 0xffc0c0c0 0x00000000
+part: 3
+	part rect3: [0,0,10,25]
+	part rect4: [10,0,10,25]
+	part rect5: [90,0,10,25]
+adorn: 1
+	adron rect0: [300,35,18,16]
+	adron rect1: [300,35,18,16]
+	adron rect2: [300,35,18,16]
+	adron rect3: [300,35,18,16]
+active: 0
+[m
+[1;33mname: SLIDERBAR
+status: 4
+	status rect0: [511,30,89,25]
+	status rect1: [511,55,89,25]
+	status rect2: [511,80,89,25]
+	status rect3: [511,105,89,25]
+	font color0: 0x00000000 0x00000000
+	font color1: 0x00000000 0x00000000
+	font color2: 0x00000000 0x00000000
+	font color3: 0x00000000 0x00000000
+part: 3
+	part rect3: [0,0,5,25]
+	part rect4: [5,0,79,25]
+	part rect5: [84,0,5,25]
+adorn: 0
+active: 4
+	active rect0: [500,30,11,25]
+	active rect1: [500,55,11,25]
+	active rect2: [500,80,11,25]
+	active rect3: [500,105,11,25]
+[m
+[1;33mname: SCROLLBAR
+status: 3
+	status rect0: [0,80,45,25]
+	status rect1: [0,105,45,25]
+	status rect2: [0,130,45,25]
+	font color0: 0x00000000 0x00000000
+	font color1: 0x00000000 0x00000000
+	font color2: 0x00000000 0x00000000
+part: 3
+	part rect3: [0,0,15,25]
+	part rect4: [15,0,15,25]
+	part rect5: [30,0,15,25]
+adorn: 0
+active: 1
+	active rect0: [45,80,20,25]
+	active rect1: [45,105,20,25]
+	active rect2: [45,130,20,25]
+[m
+[1;33mINFO : 1406:[plugd_proc:239]@02:37:25  eth0 Connected.
+[m[1;33mINFO : 1406:[plugd_proc:243]@02:37:25  Ignore first check.
+[m[0;32;32mDEBUG: 1406:[Search_proc:595]@02:37:25  Search IP Start working..........
+[m[0;32;32mDEBUG: 1406:[Search_proc:623]@02:37:25  arp Start working..........
+[mARP_listener_start.............
+line 169:Got 262144 byte buffer size in 0 iterations
+[0;32;32mDEBUG: 1406:[ssdp_proc:53]@02:37:25  ssdp Start working..........
+[m[0;32;32mDEBUG: 1406:[onvif_proc:51]@02:37:25  onvif Start working..........
+[m[0;32;32mDEBUG: 1406:[hg_proc:56]@02:37:25  hg Start working..........
+[m[0;32;32mDEBUG: 1406:[igmp_proc:574]@02:37:25  igmp Start working..........
+[mline 519:SENT Membership query   from 192.168.1.114   to 239.255.255.250
+line 393:RECV Membership query   from 192.168.1.114   to 239.255.255.250
+[0;32;32mDEBUG: 1406:[dhcp_proc:104]@02:37:25  DHCP Start working..........
+[m[1;33mname: LOADBAR
+status: 12
+	status rect0: [0,155,150,25]
+	status rect1: [150,155,150,25]
+	status rect2: [0,180,150,25]
+	status rect3: [150,180,150,25]
+	status rect4: [0,205,150,25]
+	status rect5: [150,205,150,25]
+	status rect6: [0,230,150,25]
+	status rect7: [150,230,150,25]
+	status rect8: [0,255,150,25]
+	status rect9: [150,255,150,25]
+	status rect10: [0,280,150,25]
+	status rect11: [150,280,150,25]
+	font color0: 0x00000000 0x00000000
+	font color1: 0x00000000 0x00000000
+	font color2: 0x00000000 0x00000000
+	font color3: 0x00000000 0x00000000
+	font color4: 0x00000000 0x00000000
+	font color5: 0x00000000 0x00000000
+	font color6: 0x00000000 0x00000000
+	font color7: 0x00000000 0x00000000
+	font color8: 0x00000000 0x00000000
+	font color9: 0x00000000 0x00000000
+	font color10: 0x00000000 0x00000000
+	font color11: 0x00000000 0x00000000
+part: 1
+	part rect4: [0,0,150,25]
+adorn: 0
+active: 0
+[m
+[1;33mname: PROGRESSBAR
+status: 1
+	status rect0: [500,230,100,25]
+	font color0: 0xffc0c0c0 0x00000000
+part: 3
+	part rect0: [0,0,2,25]
+	part rect1: [5,0,90,25]
+	part rect2: [98,0,2,25]
+adorn: 0
+active: 1
+	active rect0: [510,255,80,25]
+[m
+[1;33mname: LISTBOX
+status: 2
+	status rect0: [300,55,100,75]
+	status rect1: [400,55,100,75]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xff000000 0x00000000
+part: 9
+	part rect0: [0,0,5,5]
+	part rect1: [5,0,90,5]
+	part rect2: [95,0,5,5]
+	part rect3: [0,5,5,10]
+	part rect4: [5,5,90,10]
+	part rect5: [95,5,5,10]
+	part rect6: [0,70,5,5]
+	part rect7: [5,70,90,5]
+	part rect8: [95,70,5,5]
+adorn: 0
+active: 1
+	active rect0: [320,80,60,25]
+	active rect1: [420,80,60,25]
+[m
+[0;32;32mDEBUG: 1406:[hik_proc:198]@02:37:25  hik Start working..........
+[m[0;32;32mDEBUG: 1406:[dahua_broadcast_proc:339]@02:37:25  dahua Start working..........
+[m[0;32;32mDEBUG: 1406:[zw_search_9500_proc:529]@02:37:25  zhongwei Start working..........
+[m[0;32;32mDEBUG: 1406:[xm_proc:232]@02:37:25  xiongmai Start working..........
+[m[0;32;32mDEBUG: 1406:[tst_proc:45]@02:37:25  tst Start working..........
+[mline 393:RECV V2 member report   from 192.168.1.114   to 239.255.255.250
+[1;33mname: GRIDBOX
+status: 9
+	status rect0: [200,80,50,25]
+	status rect1: [200,105,50,25]
+	status rect2: [250,130,50,25]
+	status rect3: [250,105,50,25]
+	status rect4: [200,80,50,25]
+	status rect5: [200,80,50,25]
+	status rect6: [200,80,50,25]
+	status rect7: [200,80,50,25]
+	status rect8: [200,80,50,25]
+	font color0: 0xffc0c0c0 0x00000000
+	font color1: 0xffc0c0c0 0x00000000
+	font color2: 0xff000000 0x00000000
+	font color3: 0xff000000 0x00000000
+	font color4: 0xffff0000 0x00000000
+	font color5: 0xff0000ff 0x00000000
+	font color6: 0xff00ff00 0x00000000
+	font color7: 0xffffff00 0x00000000
+	font color8: 0xff000000 0x00000000
+part: 9
+	part rect0: [0,0,5,5]
+	part rect1: [5,0,40,5]
+	part rect2: [45,0,5,5]
+	part rect3: [0,5,5,15]
+	part rect4: [5,5,40,15]
+	part rect5: [45,5,5,15]
+	part rect6: [0,20,5,5]
+	part rect7: [5,20,40,5]
+	part rect8: [45,20,5,5]
+adorn: 0
+active: 0
+[m
+[1;33mname: COMBOBOX_SCROLLBAR
+status: 3
+	status rect0: [78,80,20,45]
+	status rect1: [103,80,20,45]
+	status rect2: [128,80,20,45]
+	font color0: 0x00000000 0x00000000
+	font color1: 0x00000000 0x00000000
+	font color2: 0x00000000 0x00000000
+part: 3
+	part rect0: [0,0,20,15]
+	part rect3: [0,17,20,10]
+	part rect6: [0,30,20,15]
+adorn: 0
+active: 1
+	active rect0: [78,128,20,10]
+	active rect1: [103,128,20,10]
+	active rect2: [128,128,20,10]
+[m
+[1;33mname: LINE
+status: 1
+	status rect0: [300,186,300,9]
+	font color0: 0x00000000 0x00000000
+part: 3
+	part rect3: [0,0,145,9]
+	part rect4: [145,0,10,9]
+	part rect5: [155,0,145,9]
+adorn: 0
+active: 0
+[m
+Done!
+[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:334]  before setup time now: Thu Jun  2 19:37:25 2005
+[0m[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:336]  gmttime: Thu Jun  2 19:37:25 2005
+[0m[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:338]  localtime: Thu Jun  2 19:37:25 2005
+[0m[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:342]  set system timezone to +07:00 (12, 25200)
+[0m[1;36mTZONE_DEBUG: 1405:[set_system_tzone_offset2:247]  set TZ ENV to : GMT-07:00 success !
+[0m[1;36mTZONE_DEBUG: 1405:[set_system_tzone_offset2:255]  tzname:GMT/ tzone:-25200 daylight:0
+[0m[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:353]      GMT Time: Thu Jun  2 19:37:25 2005
+[0m[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:354]          Local Time: Fri Jun  3 02:37:25 2005
+[0m[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:356]  time now: Fri Jun  3 02:37:25 2005
+[0m[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:358]  gmttime: Thu Jun  2 19:37:25 2005
+[0m[1;36mTZONE_DEBUG: 1405:[TZONE_set_index:360]  localtime: Fri Jun  3 02:37:25 2005
+[0mWINDOW unknown: window 1 theme "black"
+progressing dialog size [500,180]PROGRESSING: Structed
+WINDOW progressing: paint bg "theme" [500,180]
+WINDOW unknown: window 0 theme "black"
+WINDOW unknown: window 2 theme "black"
+MESSAGEBOX messagebox: Structed
+WINDOW unknown: window 3 theme "black"
+[37m[new_intf/gui_stage_sdl_lite.cpp:  72][0m open window config "./dialog/conf/n9208_janewui1.conf"
+SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;35m[ hichip_v2.c: 186][0m hich_json_request to 172.20.14.37:80 http://172.20.14.37:80/NetSDK/Video/motionDetection/channel/1 failed errorno:3!
+[1;35m[ hichip_v2.c:1086][0m Set Video Motion Detection Enable Failed
+[1;35mDMODE::INFO:[0m [device_mode.c: 578] Get Chn(0) Param(1280x960)
+Add new task(0)
+[0;37mTIMETICK->[timetick.c]:197 add a task @ 8 interval 1[m
+PROGRESSING: "MessageBoxProgEvent" tid=1093473472 pid=1405 arg=0x6d6540 begin
+[37m[new_intf/gui_stage_sdl_lite.cpp: 109][0m MAX_CAM_CH 8 --- REAL 8
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/live.lui"
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1608) wait done
+WINDOW live: window backgroud null
+LIVECONTROL: window "live" control 0 structed
+starting pid 1610, tty '': '/sbin/ifconfig lo 127.0.0.1 up'
+WINDOW live: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/login.lui"
+WINDOW login: window 1 theme "black"
+[0;37mDVR->[DVR_Exec]:2486 DVR Init Finished......[m
+starting pid 1611, tty '': '/sbin/route add -net 127.0.0.0 netmask 255.0.0.0 lo'
+starting pid 1612, tty '': '-/bin/sh'
+WINDOW login: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/quick.lui"
+WINDOW quick: window backgroud null
+[0;32;32mDEBUG: 1406:[dvr_init_keep_proc:1648]@02:37:26  end
+[m[1;32mWelcome to HiLinux.[0;39m
+# WINDOW quick: Structed
+[37m[window_splitscreen.cpp:  79][0m X1 View button 8 --- show_button_num 8
+[37m[window_splitscreen.cpp:  79][0m X4 View button 2 --- show_button_num 2
+[37m[window_splitscreen.cpp:  79][0m X6 View button 2 --- show_button_num 2
+[37m[new_intf/gui_stage_sdl_lite.cpp: 168][0m window config file "" no existed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 168][0m window config file "" no existed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 168][0m window config file "" no existed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/ja7208/manual.lui"
+WINDOW manual: window 9 theme "black"
+WINDOW manual: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/ptzcontrol.lui"
+WINDOW ptcontrol: window 10 theme "black"
+WINDOW ptcontrol: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/color.lui"
+WINDOW color: window 11 theme "black"
+SCROLLBAR: window "color" control 1 structed
+SCROLLBAR: window "color" control 3 structed
+SCROLLBAR: window "color" control 5 structed
+SCROLLBAR: window "color" control 7 structed
+WINDOW color: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/volume.lui"
+WINDOW volumn: window backgroud null
+SCROLLBAR: window "volumn" control 0 structed
+WINDOW volumn: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/main.lui"
+WINDOW main: window 13 theme "blue"
+WINDOW main: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/ja7208/search.lui"
+WINDOW search: window 14 theme "blue"
+COLORSLIDER: color: 0xffc0c0c0 0xfff00000 0xff00ff00 0xffffff00
+WINDOW search: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/playback.lui"
+WINDOW playback: window backgroud null
+LIVECONTROL: window "playback" control 0 structed
+WINDOW playback: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/pbtoolbar.lui"
+WINDOW pbtoolbar: window 16 theme "black"
+SLIDERBAR: window "pbtoolbar" control 0 structed
+WINDOW pbtoolbar: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/pbquick.lui"
+WINDOW pbquick: window backgroud null
+WINDOW pbquick: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/ja7208/backup.lui"
+WINDOW backup: window 18 theme "black"
+WINDOW backup: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/system.lui"
+WINDOW System Setup: window 19 theme "blue"
+WINDOW System Setup: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/general.lui"
+WINDOW misc: window 20 theme "blue"
+WINDOW misc: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/encode.lui"
+WINDOW setuptime: window 21 theme "blue"
+WINDOW setuptime: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/record.lui"
+WINDOW setuptime: window 22 theme "blue"
+SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;30m[ hichip_v1.c: 626][0m hg_request to 172.20.14.37:80 /cgi-bin/gw2.cgi failed errorno:3!
+[1;35mJCM::INFO:[0m [   app_jcm.c: 857] chn:0 error event: 3
+[1;34m==::CRIT:[0m [jcm_basesrc.c: 691] ret = protocol_klass->pre_setup(src->m_kvcProtocol, customCtx); errno:115
+[1;33mJCM::WARNING:[0m [jcm_basesrc.c:1209] SRC:0x8c2149b7 connect failed
+COLORSLIDER: color: 0xffc0c0c0 0xffff0000 0xff00ff00 0xffffff00
+WINDOW setuptime: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/network.lui"
+WINDOW network: window 23 theme "blue"
+WINDOW network: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/ddns.lui"
+WINDOW ddns: window 24 theme "blue"
+
+DELAY TASK2 execute!
+
+[1;35mJCM::INFO:[0m [jcm_protocol.c:2138] iface(/kvc/sys/video_encode) not exit!
+[1;33mJCM::WARNING:[0m [   app_jcm.c: 992] Get venc args: Chn(0:0) failed
+Delete delay task(0) done
+WINDOW ddns: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/screen.lui"
+WINDOW setuptime: window 25 theme "blue"
+SCROLLBAR: window "setuptime" control 16 structed
+WINDOW setuptime: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/tvadjust.lui"
+WINDOW color: window 26 theme "black"
+SCROLLBAR: window "color" control 4 structed
+SCROLLBAR: window "color" control 5 structed
+SCROLLBAR: window "color" control 6 structed
+SCROLLBAR: window "color" control 7 structed
+WINDOW color: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/detection.lui"
+WINDOW setuptime: window 27 theme "blue"
+WINDOW setuptime: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/mdarea.lui"
+WINDOW mdarea: window backgroud null
+AREAEDIT: window "mdarea" control 0 structed
+WINDOW mdarea: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/mdarea2.lui"
+WINDOW mdarea2: window backgroud null
+WINDOW mdarea2: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/ptzsetup.lui"
+WINDOW ptzsetup: window 30 theme "blue"
+WINDOW ptzsetup: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui8/sensor.lui"
+WINDOW setuptime: window 31 theme "blue"
+WINDOW setuptime: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/tool.lui"
+WINDOW tool: window 32 theme "blue"
+WINDOW tool: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/user.lui"
+WINDOW user: window 33 theme "blue"
+WINDOW user: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/adduser.lui"
+WINDOW adduser: window 34 theme "black"
+WINDOW adduser: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/edituser.lui"
+WINDOW edituser: window 35 theme "black"
+WINDOW edituser: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/password.lui"
+WINDOW setpassword: window 36 theme "black"
+WINDOW setpassword: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/hddsetup.lui"
+WINDOW setuptime: window 37 theme "blue"
+WINDOW setuptime: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/maintenance.lui"
+WINDOW maintenance: window 38 theme "blue"
+WINDOW maintenance: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/factory.lui"
+WINDOW tool: window 39 theme "blue"
+WINDOW tool: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/info.lui"
+WINDOW System Info: window 40 theme "blue"
+route: SIOCDELRT: No such process
+WINDOW System Info: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/hddinfo.lui"
+WINDOW hddinfo: window 41 theme "blue"
+WINDOW hddinfo: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/sysinfo.lui"
+WINDOW version: window 42 theme "blue"
+WINDOW version: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/log.lui"
+WINDOW log: window 43 theme "blue"
+WINDOW log: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/logout.lui"
+WINDOW Shutdown: window 44 theme "blue"
+WINDOW Shutdown: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/backyard.lui"
+WINDOW test: window 45 theme ""
+WINDOW test: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 168][0m window config file "" no existed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 168][0m window config file "" no existed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/vcarea.lui"
+WINDOW vcarea: window backgroud null
+WINDOW vcarea: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/3gsetup.lui"
+WINDOW 3gsetup: window 49 theme "blue"
+WINDOW 3gsetup: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/pppoe.lui"
+WINDOW pppoe: window 50 theme "blue"
+WINDOW pppoe: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/smtp.lui"
+WINDOW smtp: window 51 theme "blue"
+WINDOW smtp: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/quick_playback.lui"
+WINDOW quick playback: window backgroud null
+WINDOW quick playback: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/toolbar.lui"
+WINDOW live: window backgroud null
+WINDOW live: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/login.lui"
+WINDOW login: window 54 theme "black"
+WINDOW login: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 168][0m window config file "" no existed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/timesetup.lui"
+WINDOW setuptime: window 56 theme "blue"
+WINDOW setuptime: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/guiderecord.lui"
+WINDOW record: window 57 theme "blue"
+COLORSLIDER: color: 0xffc0c0c0 0xffff0000 0xff00ff00 0xffffff00
+WINDOW record: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/guidenetwork.lui"
+WINDOW network: window 58 theme "blue"
+WINDOW network: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 168][0m window config file "" no existed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/channel_mode.lui"
+WINDOW Channel Mode: window 60 theme "black"
+WINDOW Channel Mode: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/guidehddsetup.lui"
+WINDOW hddsetup: window 61 theme "blue"
+WINDOW hddsetup: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/general_guide.lui"
+WINDOW general: window 62 theme "blue"
+WINDOW general: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/encode_guide.lui"
+WINDOW encode: window 63 theme "blue"
+WINDOW encode: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/isGuide.lui"
+WINDOW ipaddress: window 64 theme "blue"
+WINDOW ipaddress: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/guidepppoe.lui"
+WINDOW pppoe: window 65 theme "blue"
+WINDOW pppoe: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/timer_position.lui"
+WINDOW timer_position: window 66 theme "blue"
+WINDOW timer_position: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/eseeid_position.lui"
+WINDOW eseeid_position: window 67 theme "blue"
+WINDOW eseeid_position: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/ja7208/quick_channel.lui"
+WINDOW quick Channel: window backgroud null
+WINDOW quick Channel: Structed
+[37m[window_splitscreen.cpp:  47][0m GetSplitScreenByMaxCh(8) = 4
+[37m[window_splitscreen.cpp:  47][0m GetSplitScreenByMaxCh(8) = 4
+[37m[window_splitscreen.cpp: 120][0m splitscreen button 4 --- show_button_num 4
+arp recv failed or timeout, errno:11!
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/video_manage.lui"
+WINDOW videomanage: window 70 theme "black"
+WINDOW videomanage: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/ipchannels_detail.lui"
+WINDOW IPCAM: window 71 theme "blue"
+WINDOW IPCAM: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/channel_osd.lui"
+WINDOW channelosd: window 72 theme "blue"
+WINDOW channelosd: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/ja7208/copyto.lui"
+WINDOW manual: window 73 theme "black"
+WINDOW manual: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/qrcode.lui"
+WINDOW QR Code: window 74 theme "blue"
+WINDOW QR Code: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/ftpsetup.lui"
+WINDOW FTP Setup: window 75 theme "blue"
+WINDOW FTP Setup: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/ftpschedule.lui"
+WINDOW ftpschedule: window 76 theme "blue"
+COLORSLIDER: color: 0xffc0c0c0 0xffff0000 0xff00ff00 0xffffff00
+WINDOW ftpschedule: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/channel_status_position.lui"
+WINDOW pppoe: window 77 theme "blue"
+WINDOW pppoe: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/quick_networking.lui"
+WINDOW quick_networking: window 78 theme "blue"
+WINDOW quick_networking: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/guidevideo_manage.lui"
+WINDOW videomanage: window 79 theme "blue"
+WINDOW videomanage: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/bitrate.lui"
+WINDOW bitrate: window 80 theme "blue"
+WINDOW bitrate: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/channelinfor.lui"
+WINDOW bitrate: window 81 theme "blue"
+WINDOW bitrate: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/ipc_maintenance.lui"
+WINDOW tool: window 82 theme "blue"
+WINDOW tool: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/system_maintenance.lui"
+WINDOW system_maintenance: window 83 theme "blue"
+[1;33mINFO : 1406:[dhcp_proc:150]@02:37:28  DHCP Success,and _get_if_addr done!
+[mWINDOW system_maintenance: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/video_manage_advanced.lui"
+WINDOW VedioManageAdvanced: window 84 theme "black"
+WINDOW VedioManageAdvanced: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/n9104/ipsetup_detail.lui"
+WINDOW IPCAM: window 85 theme "blue"
+WINDOW IPCAM: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 168][0m window config file "" no existed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/channel_set_mode.lui"
+WINDOW System Mode: window 87 theme "black"
+WINDOW System Mode: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/summer_time.lui"
+WINDOW Summer Time: window 88 theme "blue"
+WINDOW Summer Time: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/common/sync_time.lui"
+WINDOW Sync Time: window 89 theme "blue"
+WINDOW Sync Time: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/wifisetup.lui"
+WINDOW Wifi Setup: window 90 theme "blue"
+WINDOW Wifi Setup: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/wifi_add.lui"
+WINDOW wifi add: window 91 theme "blue"
+WINDOW wifi add: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/camera.lui"
+WINDOW IPC Camera: window 92 theme "blue"
+WINDOW IPC Camera: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/errorsetup.lui"
+WINDOW errorsetup: window 93 theme "blue"
+WINDOW errorsetup: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/errorstatus.lui"
+WINDOW manual: window 94 theme "black"
+WINDOW manual: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui8/sensoroutput.lui"
+WINDOW sensoroutput: window 95 theme "blue"
+WINDOW sensoroutput: Structed
+[37m[new_intf/gui_stage_sdl_lite.cpp: 164][0m create window config by "./dialog/janewui1/wifi_repeater_setup.lui"
+WINDOW Wifi Repeater Setup: window 96 theme "blue"
+WINDOW Wifi Repeater Setup: Structed
+PROGRESSING: "MessageBoxProgEvent" tid=1093473472 pid=1405 arg=0x6d6540 end
+[37m[new_intf/gui_stage_sdl_lite.cpp: 182][0m GUI Create Window Completed
+bShow :false
+[0;32;32mDEBUG: 1406:[udhcpc_stop:211]@02:37:29  dhcp stop...............
+[mFind 0 devices probemach:(nil) ret:-1!
+[0;32;32mDEBUG: 1406:[onvif_proc:95]@02:37:29  onvif thread exit...............
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:464]@02:37:29  set alpha (15)
+[mWINDOW loading: paint bg "theme" [500,150]
+[1;35mNK_VERIFY::INFO:[0m [ nk_verify.c:  46] NK_VERIFY_Authentication is disable!
+WINDOW messagebox: paint bg "theme" [500,225]
+[0;32;32mDEBUG: 1406:[dhcp_proc:193]@02:37:29  dhcp thread exit...............
+[m[0;32;32mDEBUG: 1406:[Search_proc:654]@02:37:29  arp stop...............
+[mARP_listener_stop..............
+List of UPNP devices found on the network :
+ desc: http://192.168.1.1:52881/simplecfg.xml
+ st: upnp:rootdevice
+
+ desc: http://192.168.1.1:52881/simplecfg.xml
+ st: upnp:rootdevice
+
+[0;32;32mDEBUG: 1406:[Search_proc:656]@02:37:30  arp thread exit...............
+[m[0;32;32mDEBUG: 1406:[IGMP_listener_stop:662]@02:37:30  igmp stop...............
+[mg_xUpnp.e_Err = 1
+--------Got XTYPE_DAEMON_UPNP
+--------UPNP UPDATE ERROR: 1
+--------0, 0
+line 609:igmp select() timeout!
+[0;32;32mDEBUG: 1406:[igmp_proc:644]@02:37:30  igmp thread exit...............
+[m[0;32;32mDEBUG: 1406:[hg_listener_stop:147]@02:37:30  hg stop...............
+[m[0;32;32mDEBUG: 1406:[hg_proc:131]@02:37:30  hg thread exit...............
+[m[0;32;32mDEBUG: 1406:[onvif_listener_stop:115]@02:37:30  onvif stop...............
+[m[0;32;32mDEBUG: 1406:[SSDP_listener_stop:106]@02:37:30  ssdp stop...............
+[m[0;32;32mDEBUG: 1406:[ssdp_proc:88]@02:37:31  ssdp thread exit...............
+[m[0;32;32mDEBUG: 1406:[HIK_listener_stop:293]@02:37:31  hikvision stop...............
+[m[0;32;32mDEBUG: 1406:[hik_proc:274]@02:37:31  hikvision thread exit...............
+[m[0;32;32mDEBUG: 1406:[DAHUA_listener_stop:565]@02:37:31  dahua stop...............
+[m[0;32;32mDEBUG: 1406:[dahua_broadcast_proc:421]@02:37:32  dahua thread exit...............
+[m[0;32;32mDEBUG: 1406:[ZW_listener_stop:641]@02:37:32  zhongwei stop...............
+[m[0;32;32mDEBUG: 1406:[zw_search_9500_proc:622]@02:37:33  zhongwei thread exit...............
+[m[0;32;32mDEBUG: 1406:[XM_listener_stop:344]@02:37:33  xiongmai stop...............
+[m[0;32;32mDEBUG: 1406:[xm_proc:326]@02:37:34  xiongmai thread exit...............
+[m[0;32;32mDEBUG: 1406:[TST_listener_stop:137]@02:37:34  tst stop...............
+[mSOCK-ERROR: connect to 172.20.14.37:80 failed.[1;30m[ hichip_v1.c: 626][0m hg_request to 172.20.14.37:80 /cgi-bin/gw2.cgi failed errorno:3!
+[1;35mJCM::INFO:[0m [   app_jcm.c: 857] chn:0 error event: 3
+[1;34m==::CRIT:[0m [jcm_basesrc.c: 691] ret = protocol_klass->pre_setup(src->m_kvcProtocol, customCtx); errno:115
+[1;33mJCM::WARNING:[0m [jcm_basesrc.c:1209] SRC:0x8c2149b7 connect failed
+[0;32;32mDEBUG: 1406:[tst_proc:117]@02:37:35  tst thread exit...............
+[m[0;32;32mDEBUG: 1406:[Search_proc:668]@02:37:35  search ip stop...............
+[m[0;32;32mDEBUG: 1406:[Search_proc:676]@02:37:35  analysisipsearch ip stop...............
+[mdhcp_snum =1,ip =192.168.1.10,subnet =255.255.255.0,gateway =192.168.1.1
+713,DHCP Success,set ip :192.168.1.10
+716,DHCP Success,set netmask :255.255.255.0
+719,DHCP Success,set gateway :192.168.1.1
+789,DHCP Success,set dns :192.168.1.1
+[0;32;32mDEBUG: 1406:[Write_Dhcp_Result:419]@02:37:35  Write DHCP result to file
+[mKernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         192.168.1.1     0.0.0.0         UG        0 0          0 eth0
+127.0.0.0       *               255.0.0.0       U         0 0          0 lo
+172.20.14.0     *               255.255.255.0   U         0 0          0 wlan0
+192.168.1.0     *               255.255.255.0   U         0 0          0 eth0
+224.0.0.0       *               224.0.0.0       U         0 0          0 eth0
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1631) wait done
+[0;32;32mDEBUG: 1406:[Search_proc:1169]@02:37:35  search for ip thread exit...............
+[meth0      Link encap:Ethernet  HWaddr 00:05:FE:99:48:94  
+          inet addr:192.168.1.10  Bcast:192.168.1.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:14 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3753 (3.6 KiB)  TX bytes:5150 (5.0 KiB)
+          Interrupt:56 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:20 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1528 (1.4 KiB)  TX bytes:1528 (1.4 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr 9C:A3:A9:2B:0A:1E  
+          inet addr:172.20.14.1  Bcast:172.20.14.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:988 (988.0 B)
+
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1635) wait done
+NK_NetConn("eth0") == NETSTATUS_NO_ERROR!!!!
+TimeOut: gTaskTimeCnt = 1
+[1;33mINFO : 1406:[AppCheckWAN:389]@02:37:37  Try www.google.com, DNS fail.
+[m[0m[JAP2P|udxa.cpp:61]JANP771310453316 start login
+DVRWTD: watchdog set timeout 15
+DVRWTD: watchdog enabled
+WINDOW loading: paint bg "theme" [500,150]
+[0m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:2771]@02:37:38  Check Wifi Backup Info
+[m[function: APP_WIFI_read_backup_info] wifi backup : 
+	NVR9ca3a92b0a1e-68839860-NVR9ca3a92b0a1e-68839860
+[function: APP_WIFI_read_backup_info] Read wifi backup info succeed in environment
+[function: APP_WIFI_read_backup_info] wifi backup : 
+	NVR9ca3a92b0a1e-68839860-NVR9ca3a92b0a1e-68839860
+[function: APP_WIFI_read_backup_info] Read wifi backup info succeed in wifi module
+[function: APP_WIFI_check_backup_info] Check wifi backup status = 5
+HOCK:[CheckWifiModule:552] cmd result = -4
+WINDOW loading: paint bg "theme" [500,150]
+[0;32;32mDEBUG: 1406:[app2gui_read_cmd:965]@02:37:38  CMD_AUTO_IP => START_AUTO_IP
+[m[1;33mINFO : 1406:[Search_Ip_search:1227]@02:37:38  one configure ip thread starting,ignore this one
+[mKilled
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1643) wait done
+killall: upnp_server: no process killed
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1646) wait done
+[1;33mINFO : 1406:[on_disconnect:214]@02:37:38  upnp_server is Disconnected!
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:38  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[mInit Serial Code: NP771310453316
+[1;33mINFO : 1406:[on_connect:175]@02:37:38  upnp is Connected! socket_index=3
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:38  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m------------UPNP_SERVER GOT_CmdType: 1
+[2005-6-2 19:37:38 JANATSvr_PMNewPorts] Start Port Mapping: w[80], c[80]
+
+upnp get gw :192.168.1.1 from app
+upnp get channel number :8 from app 
+------------UPNP_SERVER GOT_CmdType: 1
+[2005-6-2 19:37:38 JANATSvr_PMNewPorts] Start Port Mapping: w[80], c[80]
+
+upnp get gw :192.168.1.1 from app
+upnp get channel number :8 from app 
+[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:38  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:38  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:39  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:39  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:39  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[1;33mINFO : 1406:[AppCheckWAN:389]@02:37:39  Try www.baidu.com, DNS fail.
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:39  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:39  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:40  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[mSendPack DNS error
+[2005-6-2 19:37:40 rcvNATEventProc] JANATSvr_Identify Port 0 Failed
+[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:40  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:40  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:40  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:41  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:41  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:41  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:41  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[m[1;33mINFO : 1406:[AppCheckWAN:389]@02:37:41  Try www.dvr163.com, DNS fail.
+[m[0;32;31mERROR: 1406:[AppCheckWAN:391]@02:37:41  DNS is invalid.
+[m[0;32;32mDEBUG: 1406:[Search_Ip_search:1265]@02:37:41  AppCheckWAN(NULL,2) = 6
+[m[0;32;32mDEBUG: 1406:[Write_Dhcp_Result:419]@02:37:41  Write DHCP result to file
+[m[1;33mINFO : 1406:[on_disconnect:214]@02:37:41  upnp_server is Disconnected!
+[mKilled
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1657) wait done
+killall: upnp_server: no process killed
+[1;34mNK_PROCESS::CRIT:[0m [ja_process.c: 167] PROCESS(1660) wait done
+Init Serial Code: NP771310453316
+[1;33mINFO : 1406:[on_connect:175]@02:37:41  upnp is Connected! socket_index=3
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:973]@02:37:41  CMD_AUTO_IP => GET_AUTO_IP_STATUS
+[mWINDOW messagebox: paint bg "theme" [500,225]
+------------UPNP_SERVER GOT_CmdType: 1
+[2005-6-2 19:37:41 JANATSvr_PMNewPorts] Start Port Mapping: w[80], c[80]
+
+upnp get gw :192.168.1.1 from app
+upnp get channel number :8 from app 
+------------UPNP_SERVER GOT_CmdType: 1
+[2005-6-2 19:37:41 JANATSvr_PMNewPorts] Start Port Mapping: w[80], c[80]
+
+upnp get gw :192.168.1.1 from app
+upnp get channel number :8 from app 
+SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;30m[ hichip_v1.c: 626][0m hg_request to 172.20.14.37:80 /cgi-bin/gw2.cgi failed errorno:3!
+[1;35mJCM::INFO:[0m [   app_jcm.c: 857] chn:0 error event: 3
+[1;34m==::CRIT:[0m [jcm_basesrc.c: 691] ret = protocol_klass->pre_setup(src->m_kvcProtocol, customCtx); errno:115
+[1;33mJCM::WARNING:[0m [jcm_basesrc.c:1209] SRC:0x8c2149b7 connect failed
+SendPack DNS error
+[2005-6-2 19:37:43 rcvNATEventProc] JANATSvr_Identify Port 0 Failed
+[0;32;32mDEBUG: 1406:[app2gui_read_cmd:931]@02:37:44  get CMD_IPC_SEARCH(11,0,0)
+[m[1;33mINFO : 1406:[NVC_SEARCH_START:1534]@02:37:44  Search add job!
+[m[0;32;32mDEBUG: 1406:[onvif_search:591]@02:37:44  begin
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:685]@02:37:44  get CMD_CHECK_NET_STATUS
+[m[1;33mINFO : 1406:[NK_StartNetDoctor:1060]@02:37:44  -----Start Net Doctor-----
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:1983]@02:37:44  Check HDD info success.Hdd count = 0, full = 1, del = 1, days = 30
+[mHOCK:[Hock_live:2751]Check Hdd info success.
+WINDOW messagebox: paint bg "theme" [500,225]
+[0;32;32mDEBUG: 1406:[onvif_search_proc:527]@02:37:44  begin
+[mHOCK:[Hock_live:2809]full=1, overwrite=1
+[0;32;32mDEBUG: 1406:[app2gui_read_cmd:111]@02:37:45  receive REC_CTRL_GETSTATE
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:2440]@02:37:45  recv CMD_TDE_CONTRL = 1
+[mTimer 0. "live update eseeid"
+Timer 1. "live osd eseeid"
+IsDebugEnable 0
+Timer 0. "live update eseeid"
+Timer 1. "live osd eseeid"
+Timer 2. "live auto switch"
+Timer 3. "live osd"
+Timer 0. "live update eseeid"
+Timer 1. "live osd eseeid"
+Timer 2. "live auto switch"
+Timer 3. "live osd"
+Timer 4. "timer_chk_alarm_status"
+HOCK:[Hock_live:2894]default num = 1
+[0;32;32mDEBUG: 1406:[app2gui_read_cmd:2564]@02:37:45  cmd.ipc_default.ipc_num = 1
+[mVOUT: div=-1 page=0
+[0;32;32mDEBUG: 1406:[app2gui_read_cmd:239]@02:37:45  rcv video switch(-1,0) command
+[m[0;32;32mDEBUG: 1406:[app2gui_read_cmd:248]@02:37:45  AUDIO_Switch to ch0
+[mDVRCOMM: CMD_NOTICE
+DVRCOMM: NOTICE_DIVISION_STATUS, div=1, page=0
+WINDOW live: paint bg "null" [1024,768]
+assisthread:run
+[37m[new_intf/gui_stage_sdl_lite.cpp: 346][0m Screenshot did not init!
+[37m[new_intf/gui_stage_sdl_lite.cpp: 351][0m GUI Init Completed!
+Find 0 devices probemach:(nil) ret:-1!
+[0;32;32mDEBUG: 1406:[onvif_search_proc:577]@02:37:47  end
+[m[0;32;32mDEBUG: 1406:[onvif_search:611]@02:37:47  end
+[m/tmp/eseeid.online not exixt
+ping server error
+HOCK:[GetNetConnecStatus:1668]upnp.code does not exist, UPNP Fail!
+connect fail
+PingServer:dns error
+: Connection refused
+assisthread:try_num=0, try_cnt=5
+SOCK-PORT: sock port:60984SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;30m[ hichip_v1.c: 626][0m hg_request to 172.20.14.37:80 /cgi-bin/gw2.cgi failed errorno:3!
+[1;35mJCM::INFO:[0m [   app_jcm.c: 857] chn:0 error event: 3
+[1;34m==::CRIT:[0m [jcm_basesrc.c: 691] ret = protocol_klass->pre_setup(src->m_kvcProtocol, customCtx); errno:115
+[1;33mJCM::WARNING:[0m [jcm_basesrc.c:1209] SRC:0x8c2149b7 connect failed
+PingServer:dns error
+: Connection refused
+assisthread:try_num=1, try_cnt=6
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 322] new(NET_DOCTOR_JOB) maxQueue:17 maxThread:4 ok
+[1;33mINFO : 1406:[NK_NetDoctorProc:946]@02:37:51  JA_JOB_MGNT_new for net doctor succeed !
+[m[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NET_DOCTOR_JOB new thread(0) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NET_DOCTOR_JOB new thread(1) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NET_DOCTOR_JOB new thread(2) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] NET_DOCTOR_JOB new thread(3) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 382] NET_DOCTOR_JOB start ok
+[0;32;32mDEBUG: 1406:[NK_UpdateIpcAction:391]@02:37:51  Update Ch1 IPC info
+[m[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 322] new(MultiThreadCheckIP) maxQueue:2 maxThread:1 ok
+[1;33mINFO : 1406:[NK_MultiThreadCheckIP:182]@02:37:51  Create 1 Thread to check ip, total 1, repeat 0
+[m[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 379] MultiThreadCheckIP new thread(0) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 382] MultiThreadCheckIP start ok
+gUpnpTimeCnt = 13, gUpnpTimeOut = 1 To Call UPNPCD.
+PingServer:dns error
+: Connection refused
+assisthread:try_num=2, try_cnt=7
+[32;1m[WIFI::wifi_search.c-385][0m (wlan0)search count = 0
+[0;32;32mDEBUG: 1406:[ThirdPartyProtoProc:692]@02:37:53  Start thread to search hikivion ipc, timeout = 5000
+[m[0;32;32mDEBUG: 1406:[ThirdPartyProtoProc:685]@02:37:53  Start thread to search dahua ipc, timeout = 5000
+[m[0;32;32mDEBUG: 1406:[ThirdPartyProtoProc:678]@02:37:53  Start thread to search zhongwei ipc, timeout = 5000
+[m[0;32;32mDEBUG: 1406:[ThirdPartyProtoProc:671]@02:37:53  Start thread to search xiongmai ipc, timeout = 5000
+[m[0;32;32mDEBUG: 1406:[hik_proc:198]@02:37:53  hik Start working..........
+[m[0;32;32mDEBUG: 1406:[ThirdPartyProtoProc:699]@02:37:53  Start thread to search tst ipc, timeout = 5000
+[m[0;32;32mDEBUG: 1406:[dahua_broadcast_proc:339]@02:37:53  dahua Start working..........
+[m[0;32;32mDEBUG: 1406:[zw_search_9500_proc:529]@02:37:53  zhongwei Start working..........
+[m[0;32;32mDEBUG: 1406:[xm_proc:232]@02:37:53  xiongmai Start working..........
+[m[0;32;32mDEBUG: 1406:[ThirdPartyProtoProc:706]@02:37:53  Start thread to search hg ipc, timeout = 5000
+[m[0;32;32mDEBUG: 1406:[tst_proc:45]@02:37:53  tst Start working..........
+[m[0m[JAP2P|udxa.cpp:61]JANP771310453316 start login
+ping server error
+HOCK:[GetNetConnecStatus:1668]upnp.code does not exist, UPNP Fail!
+connect fail
+[0m[0;32;32mDEBUG: 1406:[NK_CheckIPproc:143]@02:37:55  Check IP wlan0 172.20.14.37 IPC Disconnect
+[m[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 425] MultiThreadCheckIP stop ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 425] MultiThreadCheckIP stop ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 191] MultiThreadCheckIP queue reset match(1) ok
+[1;35mJOB-MGNT::INFO:[0m [   ja_jobs.c: 353] del (MultiThreadCheckIP) ok
+[1;33mINFO : 1406:[NK_MultiThreadCheckIP:209]@02:37:55  Stop all check ip thread, 1 ip abnormal!
+[m[1;33mINFO : 1406:[AppCheckLAN:285]@02:37:55  AppCheckLAN eth : eth0
+[m[1;30m[ hichip_v1.c: 312][0m hichip search count =0
+TimeOut: gTaskTimeCnt = 1
+List of UPNP devices found on the network :
+ desc: http://192.168.1.1:52881/simplecfg.xml
+ st: upnp:rootdevice
+
+ desc: http://192.168.1.1:52881/simplecfg.xml
+ st: upnp:rootdevice
+
+g_xUpnp.e_Err = 1
+--------Got XTYPE_DAEMON_UPNP
+--------UPNP UPDATE ERROR: 1
+--------0, 0
+[0;32;32mDEBUG: 1406:[HIK_listener_stop:293]@02:37:58  hikvision stop...............
+[m[0;32;32mDEBUG: 1406:[DAHUA_listener_stop:565]@02:37:58  dahua stop...............
+[m[0;32;32mDEBUG: 1406:[ZW_listener_stop:641]@02:37:58  zhongwei stop...............
+[m[0;32;32mDEBUG: 1406:[XM_listener_stop:344]@02:37:58  xiongmai stop...............
+[m[0;32;32mDEBUG: 1406:[TST_listener_stop:137]@02:37:58  tst stop...............
+[m[0;32;32mDEBUG: 1406:[hik_proc:274]@02:37:58  hikvision thread exit...............
+[m[0;32;32mDEBUG: 1406:[dahua_broadcast_proc:421]@02:37:58  dahua thread exit...............
+[m[0;32;32mDEBUG: 1406:[zw_search_9500_proc:622]@02:37:58  zhongwei thread exit...............
+[m[0;32;32mDEBUG: 1406:[xm_proc:326]@02:37:58  xiongmai thread exit...............
+[m[0;32;32mDEBUG: 1406:[tst_proc:117]@02:37:58  tst thread exit...............
+[mSendPack DNS error
+[2005-6-2 19:37:58 rcvNATEventProc] JANATSvr_Identify Port 0 Failed
+SOCK-ERROR: connect to 172.20.14.37:80 failed.[1;30m[ hichip_v1.c: 626][0m hg_request to 172.20.14.37:80 /cgi-bin/gw2.cgi failed errorno:3!
+[1;35mJCM::INFO:[0m [   app_jcm.c: 857] chn:0 error event: 3
+[1;34m==::CRIT:[0m [jcm_basesrc.c: 691] ret = protocol_klass->pre_setup(src->m_kvcProtocol, customCtx); errno:115
+[1;33mJCM::WARNING:[0m [jcm_basesrc.c:1209] SRC:0x8c2149b7 connect failed
+[1;30m[ hichip_v1.c: 312][0m hichip search count =0
+[0;32;32mDEBUG: 1406:[onvif_search:591]@02:37:59  begin
+[m[0;32;32mDEBUG: 1406:[onvif_search_proc:527]@02:37:59  begin
+[mping server error
+HOCK:[GetNetConnecStatus:1668]upnp.code does not exist, UPNP Fail!
+connect fail
+[1;33mINFO : 1406:[AppCheckWAN:389]@02:38:01  Try www.google.com, DNS fail.
+[mFind 0 devices probemach:(nil) ret:-1!
+[0;32;32mDEBUG: 1406:[onvif_search_proc:577]@02:38:02  end
+[m[0;32;32mDEBUG: 1406:[onvif_search:611]@02:38:02  end
+[mSearch Count : 0
