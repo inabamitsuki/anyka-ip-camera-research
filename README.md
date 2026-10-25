@@ -57,7 +57,7 @@ For the analyzed `ipc1824.bin` image:
 - The NVR's own live output is exposed through HTTP (`/bubble/live`), RTMP, and JAP2P services in the captured run. RTSP strings exist in the binary, but an NVR-side RTSP server remains unconfirmed.
 
 ![NVR](photo/dius-bootscreen.jpg)
-
+This is UART pinout on Hi3520D board
 ![NVR UART pinout](photo/UART-NVR.png)
 
 ### 4. Cross-Check Between Camera and NVR
