@@ -17,6 +17,7 @@ This document consolidates the key findings from the IPC RTSP analysis and the K
 - **SoC / processor:** Anyka `AK3918EN080`.
 - **Firmware image analyzed:** `ipc1824.bin`.
 - **Main application:** `/usr/bin/anyka_ipc`.
+![IPC](photo/ipc-firmware-dump.jpg)
 
 The SoC identification describes the camera hardware; the RTSP findings below are specific to the analyzed firmware image and may differ across firmware versions.
 
@@ -54,6 +55,10 @@ For the analyzed `ipc1824.bin` image:
 - The NVR's camera-ingest path uses N1/HiChip NetSDK over HTTP port `80`, including `/cgi-bin/gw2.cgi` and `/NetSDK/...` endpoints.
 - The captured boot log shows no MiniRTSP listener startup and no observed listener on port `554`.
 - The NVR's own live output is exposed through HTTP (`/bubble/live`), RTMP, and JAP2P services in the captured run. RTSP strings exist in the binary, but an NVR-side RTSP server remains unconfirmed.
+
+![NVR](photo/dius-bootscreen.jpg)
+
+![NVR UART pinout](photo/UART-NVR.png)
 
 ### 4. Cross-Check Between Camera and NVR
 
