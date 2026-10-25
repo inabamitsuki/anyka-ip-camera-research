@@ -1,6 +1,8 @@
-# Anyka/Juanvision IPC and K9608-W NVR — Firmware Analysis Summary
+# Anyka/Juanvision IP Camera Anyka AK3918EN080 and K9608-W NVR — Firmware Analysis Summary
 
 This document consolidates the key findings from the IPC RTSP analysis and the K9608-W NVR firmware analysis. It is intended as a concise repository overview; detailed reverse-engineering notes and command logs can remain in the original reports.
+
+![NVR Kit](photo/nvrkit.jpg)
 
 ## Overview
 
@@ -98,24 +100,6 @@ For the analyzed camera image only:
 
 Do not flash modified firmware without a verified recovery method. Firmware headers may contain checksums or signatures, and a firmware mismatch can make binary offsets or configuration assumptions invalid.
 
-## Repository Files
-
-Suggested repository structure:
-
-```text
-.
-├── README.md
-├── docs/
-│   ├── rtsp-analysis.md
-│   └── nvr-analysis.md
-└── firmware/             # Optional; only include firmware you have rights to redistribute
-```
-
-The original reports contain detailed partition layouts, disassembly addresses, startup traces, emulation notes, and reproduction commands:
-
-- [`docs/rtsp-analysis.md`](docs/rtsp-analysis.md)
-- [`docs/nvr-analysis.md`](docs/nvr-analysis.md)
-
 ## Limitations and Open Questions
 
 1. Confirm the camera's exact firmware version and hardware identity before relying on image-specific conclusions.
@@ -123,12 +107,3 @@ The original reports contain detailed partition layouts, disassembly addresses, 
 3. Recheck RTSP paths and configuration behavior if the device runs `2.2.15.391806(2.4.0.20)` or another build rather than the analyzed `2.2.15_W` image.
 4. NVR-side RTSP output is not confirmed by the captured boot log.
 5. The NVR's stored camera record and network addresses are device-specific; redact identifiers before publishing logs.
-
-## Source Reports
-
-This summary is based only on the two supplied analysis reports:
-
-- `rtsp-analysis.md` — Anyka/Juanvision IPC RTSP firmware analysis and test guide.
-- `nvr-analysis.md` — K9608-W NVR firmware dump analysis.
-
-See those reports for the underlying evidence and detailed reverse-engineering notes.
